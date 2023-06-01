@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,47" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="crtlText" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n6_ac82" name="n6" src="icfzcu4cfg" fileName="A通用组件/通用弹框/弹框_0007_最大小按钮.png" pkg="pv2o4pb9" xy="-2,1" size="80,46"/>
+    <text id="n4_ac82" name="dec" xy="13,5" size="52,32" fontSize="22" color="#fedb97" align="center" vAlign="middle" autoSize="none" text="最大">
+      <gearText controller="crtlText" pages="1" values="最大" default="最小"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

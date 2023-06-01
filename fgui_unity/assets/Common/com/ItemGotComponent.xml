@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="296,40" initName="comGotInfo" designImage="ui://sg2i0pnoi70p9" designImageOffsetX="-859" designImageOffsetY="-291" designImageAlpha="80">
+  <displayList>
+    <image id="n14_bavd" name="n14" src="icfzcu4cec" fileName="A通用组件/通用其它资源/通用_2边渐变底图.png" pkg="pv2o4pb9" xy="-36,1" pivot="0.5,0.5" size="367,37">
+      <relation target="" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <loader id="n13_w23f" name="icon" xy="1,0" size="50,50" scale="0.8,0.8" url="ui://wfyzfy4rhbcg36" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n7_dogm" name="title" xy="40,4" size="244,29" restrictSize="77,0,0,0" fontSize="20" color="#fedb97" vAlign="middle" singleLine="true" autoClearText="true" text="元气结晶今日获取:253/380"/>
+  </displayList>
+  <relation target="n7_dogm" sidePair="rightext-right"/>
+</component>

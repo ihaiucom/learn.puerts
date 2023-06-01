@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,29" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n4_as4a" name="n4" src="slg932" fileName="button/删除按钮.png" pkg="pv2o4pb9" xy="0,0"/>
+  </displayList>
+  <Button/>
+</component>

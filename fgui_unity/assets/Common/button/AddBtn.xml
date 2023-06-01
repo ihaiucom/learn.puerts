@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="38,38" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_g4u8" name="n8" src="o5mq1rdfitz" fileName="宠物_0002_宠物查看按钮.png" pkg="pv2o4pb9" xy="0,0" size="38,38">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n11_o5mq" name="n11" src="imvr37" fileName="拍卖行_0001_+.png" pkg="pv2o4pb9" xy="7,7"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,46" designImageOffsetX="-408" designImageOffsetY="-391" designImageAlpha="0">
+  <controller name="ctrlShowBtn" exported="true" pages="0,,1," selected="0"/>
+  <controller name="ctrlShowCalculator" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n0_930q" name="btnMinus" src="930q1h" fileName="button/ChangeNumberButton.xml" xy="2,0" group="n7_tw9m">
+      <relation target="n4_930q" sidePair="left-left"/>
+    </component>
+    <component id="n1_930q" name="btnAdd" src="930q1h" fileName="button/ChangeNumberButton.xml" xy="131,0" group="n7_tw9m" controller="ctrlIsAdd,1">
+      <relation target="n4_930q" sidePair="right-right"/>
+    </component>
+    <component id="n2_930q" name="btnMin" src="930q1i" fileName="button/MaxMinButton.xml" xy="-88,0" group="n7_tw9m">
+      <gearDisplay controller="ctrlShowBtn" pages="1"/>
+    </component>
+    <component id="n3_930q" name="btnMax" src="930q1i" fileName="button/MaxMinButton.xml" xy="178,-1" group="n7_tw9m" controller="isMax,1">
+      <gearDisplay controller="ctrlShowBtn" pages="1"/>
+    </component>
+    <image id="n6_930q" name="_imgInputBg" src="icfzcu4cfh" fileName="A通用组件/通用弹框/弹框_0008_输入BG.png" pkg="pv2o4pb9" xy="87,21" pivot="0.5,0.5" anchor="true" size="172,42" group="n7_tw9m">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n4_930q" name="itxtNumber" xy="48,3" size="81,34" group="n7_tw9m" fontSize="24" color="#fedb97" align="center" autoSize="none" text="520" input="true" restrict="0-9" keyboardType="4">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n9_gbic" name="btnCalculator" src="gbic1rdfity" fileName="button/ButtonNumCalculator.xml" xy="50,7" group="n7_tw9m">
+      <gearDisplay controller="ctrlShowCalculator" pages="1"/>
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <group id="n7_tw9m" name="n7" xy="-87,-1" size="347,47"/>
+  </displayList>
+</component>

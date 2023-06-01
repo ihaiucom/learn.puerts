@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,38" pivot="0.5,0.5" extention="Button" designImageOffsetX="-178" designImageOffsetY="-138" designImageAlpha="66" designImageLayer="1">
+  <controller name="button" exported="true" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n7_a5cs" name="n7" src="icfzcu4cem" fileName="A通用组件/通用其它资源/下拉框/通用_下拉框_未选中.png" pkg="pv2o4pb9" xy="1,1" size="190,50" group="n11_q7dc" scale="0.7,0.7"/>
+    <image id="n8_a5cs" name="n8" src="icfzcu4cel" fileName="A通用组件/通用其它资源/下拉框/通用_下拉框_已选中.png" pkg="pv2o4pb9" xy="67,18" pivot="0.5,0.5" anchor="true" size="192,52" group="n11_q7dc" scale="0.7,0.7">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <richtext id="n4_kk26" name="title" xy="13,2" pivot="0.5,0.5" size="108,32" group="n11_q7dc" fontSize="20" color="#fedb97" align="center" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="sdafd"/>
+    <group id="n11_q7dc" name="n11" xy="-29,-8" size="220,59" advanced="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+  <customProperty target="icon" propertyId="1"/>
+</component>

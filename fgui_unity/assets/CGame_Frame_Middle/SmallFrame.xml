@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,406" extention="Label" initName="comFrame" designImage="ui://7hlhkjnwtw9mu4c4e" designImageOffsetX="-2298" designImageOffsetY="-2412" designImageAlpha="0">
+  <controller name="typeCtrl" alias="标题类型" exported="true" pages="1,,0," selected="1">
+    <remark page="0" value="图标"/>
+    <remark page="1" value="文本"/>
+  </controller>
+  <controller name="ButtonCountCtrl" alias="按钮个数" exported="true" pages="2,2,1,1,0,0" selected="1"/>
+  <controller name="hideCloseCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_dogm" name="_top" src="icfzcu4cfl" fileName="A通用组件/通用弹框/弹框_顶部.png" pkg="pv2o4pb9" xy="0,0" size="664,62" group="n12_930q">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n1_dogm" name="_mid" src="icfzcu4cfj" fileName="A通用组件/通用弹框/弹框_0011_中小弹出下部.png" pkg="pv2o4pb9" xy="-11,62" size="686,361" group="n12_930q">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <group id="n12_930q" name="_bg" xy="-11,0" size="686,423" group="n21_tw9m"/>
+    <image id="n16_tw9m" name="n16" src="icfzcu4cfi" fileName="A通用组件/通用弹框/弹框_0009_装饰.png" pkg="pv2o4pb9" xy="423,41" pivot="1,0" anchor="true" group="n19_tw9m" rotation="180">
+      <relation target="n18_tw9m" sidePair="left-right"/>
+    </image>
+    <image id="n17_tw9m" name="n17" src="icfzcu4cfi" fileName="A通用组件/通用弹框/弹框_0009_装饰.png" pkg="pv2o4pb9" xy="233,41" pivot="1,1" anchor="true" group="n19_tw9m">
+      <relation target="n18_tw9m" sidePair="right-left"/>
+    </image>
+    <text id="n18_tw9m" name="title" xy="331,31" pivot="0.5,0.5" anchor="true" size="65,42" group="n19_tw9m" fontSize="30" color="#fedb97" align="center" letterSpacing="1" text="提示">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n19_tw9m" name="n19" xy="169,10" size="254,51" group="n21_tw9m" advanced="true"/>
+    <group id="n21_tw9m" name="n21" xy="-11,0" size="686,423"/>
+    <component id="n10_dogm" name="btnClose" src="cd2iu4c3v" fileName="button/ButtonClose.xml" pkg="pvdu3cm7" xy="598,8">
+      <gearDisplay controller="hideCloseCtrl" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n25_mp3q" name="btn1" src="q4tgu4c3h" fileName="button/ButtonLargeBlue.xml" pkg="pvdu3cm7" xy="90,314" group="n26_kxu8">
+      <gearDisplay controller="ButtonCountCtrl" pages="2"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n24_mp3q" name="btn2" src="q4tgu4c3g" fileName="button/ButtonLargeYellow.xml" pkg="pvdu3cm7" xy="239,314" group="n26_kxu8">
+      <gearDisplay controller="ButtonCountCtrl" pages="2,1"/>
+      <gearXY controller="ButtonCountCtrl" pages="2,1" values="384,314|239,314" default="385,312"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <group id="n26_kxu8" name="n26" xy="90,314" size="335,62"/>
+  </displayList>
+  <customProperty target="btn1.title" propertyId="0"/>
+  <customProperty target="btn2.title" propertyId="0"/>
+</component>

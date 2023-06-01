@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="950,60">
+  <displayList>
+    <image id="n3_qyvz" name="n3" src="l6ctuoc95" fileName="frame/弹出_小提示BG.png" pkg="pv2o4pb9" xy="0,0" size="950,60"/>
+    <text id="n6_spej" name="ltxt" xy="386,13" size="52,34" fontSize="24" color="#FEDB97" align="center" vAlign="middle" text="获得">
+      <relation target="n5_spej" sidePair="middle-middle,right-left"/>
+    </text>
+    <loader id="n5_spej" name="icon" xy="438,13" pivot="0.5,0.5" size="34,34" align="center" vAlign="middle" fill="scaleNoBorder"/>
+    <text id="n7_spej" name="rtxt" xy="472,13" size="103,34" fontSize="24" color="#ffffff" vAlign="middle" text="银珠x100">
+      <relation target="n5_spej" sidePair="middle-middle,left-right"/>
+    </text>
+  </displayList>
+</component>

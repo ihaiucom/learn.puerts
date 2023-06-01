@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="33,33" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="1,down,2,over,4,up" selected="2">
+    <action type="play_transition" fromPage="2" toPage="1" transition="" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <image id="n5_u5zq" name="n5" src="f9xx1i" fileName="背包_武器切换BG.png" pkg="pv2o4pb9" xy="0,0"/>
+    <image id="n8_u5zq" name="n8" src="f9xx1j" fileName="背包_武器切换.png" pkg="pv2o4pb9" xy="7,7" pivot="0.5,0.5">
+      <gearLook controller="button" pages="1" values="1,-180,0,0" default="1,0,0,0" tween="true" ease="Linear" duration=".5"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

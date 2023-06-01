@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <component id="n22_hu2n" name="comFrame" src="mrmzu4c4a" fileName="SmallFrame.xml" pkg="7hlhkjnw" xy="335,156" controller="typeCtrl,0,ButtonCountCtrl,1,hideCloseCtrl,1">
+      <Label title="测试账号登录"/>
+      <property target="btn2.title" propertyId="0" value="登录"/>
+    </component>
+    <component id="n23_hu2n" name="_comFrameBg" src="nzo0cu4cfq" fileName="frame/_SmallFrameContentBg.xml" pkg="pvdu3cm7" xy="345,229" size="644,222"/>
+    <component id="n1_xy38" name="account" src="95cpi" fileName="Component/AccountButton.xml" xy="417,291"/>
+    <component id="n2_xy38" name="password" src="95cpf" fileName="Component~NCode/PasswordButton.xml" xy="417,363"/>
+  </displayList>
+</component>

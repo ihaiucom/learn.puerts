@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="107,25">
+  <displayList>
+    <image id="n1_hoju" name="n1" src="myoncu4chv" fileName="A通用组件/通用其它资源/通用_冒泡小箭头2.png" pkg="pv2o4pb9" xy="45,1" scale="1,-1">
+      <relation target="n2_hoju" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n0_hoju" name="n0" src="icfzcu4cee" fileName="A通用组件/通用其它资源/通用_冒泡框1.png" pkg="pv2o4pb9" xy="53,12" pivot="0.5,0.5" anchor="true" size="107,25">
+      <relation target="n2_hoju" sidePair="width-width,center-center,middle-middle"/>
+    </image>
+    <text id="n2_hoju" name="dec" xy="9,2" size="88,19" fontSize="12" color="#FEF2DA" align="center" vAlign="middle" text="开通特权可穿戴"/>
+  </displayList>
+  <relation target="n2_hoju" sidePair="width-width"/>
+  <customProperty target="dec" propertyId="0"/>
+</component>

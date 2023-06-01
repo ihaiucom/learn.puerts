@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pv2o4pb9">
+  <resources>
+    <image id="dogm10" name="通用横页签.png" path="/button/" exported="true" scale="9grid" scale9grid="3,0,2,63"/>
+    <image id="dogm11" name="通用横页签_BG.png" path="/button/" exported="true" scale="9grid" scale9grid="75,3,2,3"/>
+    <image id="dogm17" name="数量输入框.png" path="/frame/" exported="true" scale="9grid" scale9grid="15,15,8,6"/>
+    <image id="dogm1p" name="分解设置划分BG.png" path="/frame/" exported="true"/>
+    <image id="dogm1t" name="勾选_BG.png" path="/button/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <image id="930q2h" name="装备品级进度.png" path="/tips/" exported="true" scale9grid="39,2,78,4"/>
+    <image id="930q2i" name="装备品级进度_BG.png" path="/tips/" exported="true"/>
+    <image id="slg92z" name="右侧大按钮-红点.png" path="/reddot/" exported="true"/>
+    <image id="slg930" name="小红点.png" path="/reddot/" exported="true"/>
+    <image id="slg932" name="删除按钮.png" path="/button/" exported="true"/>
+    <image id="oz8qc2t" name="好友.png" path="/tag/" exported="true" scale="9grid" scale9grid="10,10,2,2"/>
+    <image id="oz8qc2u" name="世界.png" path="/tag/" exported="true" scale="9grid" scale9grid="10,10,2,2"/>
+    <image id="oz8qc2v" name="私聊.png" path="/tag/" exported="true" scale="9grid" scale9grid="10,10,2,2"/>
+    <image id="oz8qc2w" name="系统.png" path="/tag/" exported="true" scale="9grid" scale9grid="10,10,2,2"/>
+    <image id="ssndc2y" name="表情_底框.png" path="/button/" exported="true"/>
+    <image id="dx56d" name="未同意_玩家名_底图.png" path="/com/" exported="true" scale="9grid" scale9grid="4,0,1,31"/>
+    <image id="dx56h" name="组队倒计时进度条.png" path="/progressBar/" exported="true" scale="9grid" scale9grid="4,0,0,10"/>
+    <image id="nzmqc3h" name="背包_满.png" path="/frame/" exported="true"/>
+    <image id="10idoc3i" name="进度条_蓝色.png" path="/progressBar/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <image id="a6ezd" name="上下黑幕.png" path="/frame/" exported="true" scale="9grid" scale9grid="2,22,4,44"/>
+    <image id="q4tguoc65" name="公共_特殊灰按钮+花纹.png" path="/new_ui/button/" exported="true" scale="9grid" scale9grid="61,18,-12,31"/>
+    <image id="cj0puoc85" name="公共_特殊黄按钮+花纹.png" path="/new_ui/button/" exported="true" scale="9grid" scale9grid="61,18,-12,31"/>
+    <image id="cj0puoc87" name="返回区域_BG.png" path="/new_ui/topbar/" exported="true" scale="9grid" scale9grid="141,3,282,2"/>
+    <image id="urnzuoc8z" name="进度条_2.png" path="/progressBar/" exported="true" scale="9grid" scale9grid="2,2,4,4"/>
+    <image id="urnzuoc90" name="进度条_1.png" path="/progressBar/" exported="true" scale="9grid" scale9grid="2,2,4,4"/>
+    <image id="cpdg15" name="色号081318（深蓝）70.png" path="/com/" exported="true" scale="9grid" scale9grid="14,13,2,3"/>
+    <image id="cpdguoc94" name="弹出_小TIPS_BG.png" path="/com/" exported="true" scale="9grid" scale9grid="15,25,1,1"/>
+    <image id="l6ctuoc95" name="弹出_小提示BG.png" path="/frame/" exported="true" scale="9grid" scale9grid="0,2,256,6"/>
+    <image id="ldaduoc98" name="队伍色.png" path="/tag/" exported="true" scale="9grid" scale9grid="10,10,2,2"/>
+    <image id="gipnuoc9b" name="武斗场图标_底图.png" path="/new_ui/com/" exported="true"/>
+    <image id="n8bruoc9d" name="仓库锁_bg.png" path="/" exported="true"/>
+    <image id="n8bruoc9e" name="仓库锁_开锁.png" path="/" exported="true"/>
+    <image id="n8bruoc9f" name="仓库锁_锁住.png" path="/" exported="true"/>
+    <image id="hhrxuoc9t" name="物品TIPS_箭头_削减.png" path="/new_ui/tips/" exported="true"/>
+    <image id="hhrxuoc9u" name="物品TIPS_箭头_增加.png" path="/new_ui/tips/" exported="true"/>
+    <image id="mglhuocb8" name="纹章_锁.png" path="/new_ui/tips/铸印/" exported="true"/>
+    <image id="nraf18" name="物品框_删除.png" path="/" exported="true"/>
+    <image id="plpalw" name="关卡_小弹出上.png" path="/tips/" exported="true" scale9grid="5,2,10,4"/>
+    <image id="plpalx" name="关卡_小弹出下.png" path="/tips/" exported="true" scale="9grid" scale9grid="7,9,2,10"/>
+    <image id="ok9puocbr" name="通用_小tips底.png" path="/" exported="true" scale="9grid" scale9grid="25,25,2,2"/>
+    <image id="mghgcu4ccq" name="通用_1像素选中框.png" path="/button/" exported="true" scale="9grid" scale9grid="14,14,2,2"/>
+    <image id="vueccu4ccq" name="新头像_外框.png" path="/new_ui/headicon/" exported="true" scale="9grid" scale9grid="8,5,56,3"/>
+    <image id="vueccu4ccr" name="主界面_信息框_等级框.png" path="/new_ui/headicon/" exported="true"/>
+    <image id="vuec2r" name="主界面_信息框体力图标.png" path="/new_ui/other/" exported="true"/>
+    <image id="vuec3f" name="主界面_组队_队长标识.png" path="/new_ui/headicon/" exported="true"/>
+    <image id="lflxcu4cdl" name="组队_修改信息界面_队伍选中花纹.png" path="/new_ui/other/" exported="true"/>
+    <image id="v3tl1" name="组队_修改信息界面_队伍角色名字底.png" path="/new_ui/other/" exported="true" scale="9grid" scale9grid="3,2,2,2"/>
+    <image id="v3tl3" name="组队_修改信息界面_队伍选中BG.png" path="/new_ui/other/" exported="true" scale="9grid" scale9grid="7,7,4,4"/>
+    <image id="v3tl2" name="组队_修改信息界面_队伍描边.png" path="/new_ui/other/" exported="true" scale="9grid" scale9grid="3,4,2,1"/>
+    <image id="hg3hcu4cdr" name="技能_0003_视频顶部.png" path="/new_ui/mask/" exported="true" scale="9grid" scale9grid="4,3,1,2"/>
+    <image id="vuec2i" name="主界面_信息_大底图.png" path="/new_ui/headicon/" exported="true" scale="9grid" scale9grid="0,3,464,2"/>
+    <image id="vuec2s" name="主界面_信息框_进度条底图1.png" path="/new_ui/headicon/" exported="true" scale="9grid" scale9grid="17,10,2,1"/>
+    <image id="vuec2t" name="主界面_信息框_进度条底图2.png" path="/new_ui/headicon/" exported="true" scale="9grid" scale9grid="12,0,1,10"/>
+    <image id="vuec3a" name="主界面_任务_任务底图.png" path="/new_ui/frame/" exported="true" scale="9grid" scale9grid="19,18,6,10"/>
+    <image id="fp1fcu4cdv" name="主界面_获得新物品BG.png" path="/new_ui/other/" exported="true" scale="9grid" scale9grid="3,44,2,2"/>
+    <image id="v3tl9" name="组队_组队大厅_左侧页签二级.png" path="/new_ui/back/" exported="true" scale="9grid" scale9grid="3,4,2,2"/>
+    <image id="v3tla" name="组队_组队大厅_左侧页签二级选中.png" path="/new_ui/back/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <image id="v3tlb" name="组队_组队大厅_左侧页签三级.png" path="/new_ui/back/" exported="true"/>
+    <image id="v3tl7" name="组队_组队大厅_右侧队伍浅色.png" path="/new_ui/back/" exported="true" scale="9grid" scale9grid="3,1,2,2"/>
+    <image id="icfzcu4cdx" name="TIPS_0000_提醒BG.png" path="/A通用组件/通用TIPS/" exported="true" scale="9grid" scale9grid="1,2,4,2"/>
+    <image id="icfzcu4cdy" name="TIPS_0001_TIPS下部.png" path="/A通用组件/通用TIPS/" exported="true" scale="9grid" scale9grid="7,12,5,5"/>
+    <image id="icfzcu4cdz" name="TIPS_0002_白色品质名字.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce0" name="TIPS_0003_蓝色品质名字.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce1" name="TIPS_0004_绿色品质名字.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce2" name="TIPS_0005_紫色品质名字.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce3" name="TIPS_0006_粉色品质名字.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce4" name="TIPS_0007_红色品质名字.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce5" name="TIPS_0008_金色品质名字.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce6" name="物品TIPS_箭头_削减.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce7" name="物品TIPS_箭头_增加.png" path="/A通用组件/通用TIPS/" exported="true"/>
+    <image id="icfzcu4ce8" name="小tips_BG.png" path="/A通用组件/通用TIPS/小TIPS/" exported="true" scale="9grid" scale9grid="22,11,3,5"/>
+    <image id="icfzcu4ce9" name="小tips_中间底.png" path="/A通用组件/通用TIPS/小TIPS/" exported="true" scale="9grid" scale9grid="10,8,5,4"/>
+    <image id="icfzcu4cea" name="小tips_装饰.png" path="/A通用组件/通用TIPS/小TIPS/" exported="true"/>
+    <image id="icfzcu4ceb" name="小箭头.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="icfzcu4cec" name="通用_2边渐变底图.png" path="/A通用组件/通用其它资源/" exported="true" scale="9grid" scale9grid="0,9,256,1"/>
+    <image id="icfzcu4ced" name="通用_冒泡小箭头1.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="icfzcu4cee" name="通用_冒泡框1.png" path="/A通用组件/通用其它资源/" exported="true" scale="9grid" scale9grid="17,0,2,31"/>
+    <image id="icfzcu4cef" name="通用_升级.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="icfzcu4ceg" name="通用_标题底.png" path="/A通用组件/通用其它资源/" exported="true" scale="9grid" scale9grid="4,0,1,32"/>
+    <image id="icfzcu4ceh" name="通用_表情框.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="icfzcu4cei" name="通用_下拉_下拉底.png" path="/A通用组件/通用其它资源/下拉框/" exported="true" scale="9grid" scale9grid="18,17,2,3"/>
+    <image id="icfzcu4cej" name="通用_下拉图标底.png" path="/A通用组件/通用其它资源/下拉框/" exported="true" scale="9grid" scale9grid="18,20,3,2"/>
+    <image id="icfzcu4cek" name="通用_下拉框.png" path="/A通用组件/通用其它资源/下拉框/" exported="true" scale="9grid" scale9grid="29,0,4,54"/>
+    <image id="icfzcu4cel" name="通用_下拉框_已选中.png" path="/A通用组件/通用其它资源/下拉框/" exported="true" scale="9grid" scale9grid="29,0,4,50"/>
+    <image id="icfzcu4cem" name="通用_下拉框_未选中.png" path="/A通用组件/通用其它资源/下拉框/" exported="true" scale="9grid" scale9grid="25,0,5,50"/>
+    <image id="icfzcu4cen" name="通用_下拉箭头.png" path="/A通用组件/通用其它资源/下拉框/" exported="true"/>
+    <image id="a5cscu4cct" name="通用_0000_1像素分割线.png" path="/A通用组件/通用其它资源/分割线/" exported="true" scale="tile"/>
+    <image id="icfzcu4cep" name="通用_0005_2像素分割线.png" path="/A通用组件/通用其它资源/分割线/" exported="true" scale9grid="189,0,9,2"/>
+    <image id="icfzcu4cer" name="弹框_0000_对号.png" path="/A通用组件/通用其它资源/勾选框/" exported="true"/>
+    <image id="icfzcu4ces" name="通用按钮_搜索.png" path="/A通用组件/通用其它资源/搜索框/" exported="true"/>
+    <image id="icfzcu4cet" name="通用按钮_搜索框.png" path="/A通用组件/通用其它资源/搜索框/" exported="true" scale="9grid" scale9grid="24,0,16,54"/>
+    <image id="icfzcu4ceu" name="输入框402f24-100%.png" path="/A通用组件/通用其它资源/输入框/" exported="true" scale="9grid" scale9grid="6,5,3,2"/>
+    <image id="icfzcu4cev" name="通用_1像素选中框.png" path="/A通用组件/通用其它资源/选中框/" exported="true" scale="9grid" scale9grid="13,13,3,2"/>
+    <image id="icfzcu4cew" name="通用_2像素选中框.png" path="/A通用组件/通用其它资源/选中框/" exported="true" scale="9grid" scale9grid="11,12,3,4"/>
+    <image id="icfzcu4cex" name="100%黑.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="3,3,2,2" duplicatePadding="true"/>
+    <image id="icfzcu4cey" name="30%黑.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <image id="icfzcu4cez" name="80%黑.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="1,3,4,2"/>
+    <image id="icfzcu4cf0" name="棕色（201109-80%）背景图.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="6,4,1,3"/>
+    <image id="icfzcu4cf1" name="通用_一级界面30%底.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="5,4,2,2"/>
+    <image id="icfzcu4cf2" name="通用_一级界面信息条BG.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="3,4,1,1"/>
+    <image id="icfzcu4cf3" name="通用_一级界面顶部信息BG.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="1,3,4,1"/>
+    <image id="icfzcu4cf4" name="通用_装备栏BG.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="1,3,2,2"/>
+    <image id="icfzcu4cf8" name="弹框_0002_弹出条BG.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="5,8,6,3" duplicatePadding="true"/>
+    <image id="icfzcu4cf9" name="弹框_0003_关闭.png" path="/A通用组件/通用弹框/" exported="true"/>
+    <image id="icfzcu4cfa" name="弹框_0004_加号.png" path="/A通用组件/通用弹框/" exported="true"/>
+    <image id="icfzcu4cfb" name="弹框_0004_弹出顶部底.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="5,0,1,50"/>
+    <image id="icfzcu4cfc" name="弹框_0005_减号.png" path="/A通用组件/通用弹框/" exported="true"/>
+    <image id="icfzcu4cfd" name="弹框_0005_弹框标题BG.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="14,0,3,40"/>
+    <image id="icfzcu4cfe" name="弹框_0006_加减按钮.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="20,0,3,42"/>
+    <image id="icfzcu4cff" name="弹框_0006_大弹框中间BG.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="21,19,2,2"/>
+    <image id="icfzcu4cfg" name="弹框_0007_最大小按钮.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="26,0,1,46"/>
+    <image id="icfzcu4cfh" name="弹框_0008_输入BG.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="23,0,5,44"/>
+    <image id="icfzcu4cfi" name="弹框_0009_装饰.png" path="/A通用组件/通用弹框/" exported="true"/>
+    <image id="icfzcu4cfj" name="弹框_0011_中小弹出下部.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="18,7,2,4"/>
+    <image id="icfzcu4cfk" name="弹框_0012_弹框中间BG.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="16,16,4,2"/>
+    <image id="icfzcu4cfl" name="弹框_顶部.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="50,0,9,62"/>
+    <image id="icfzcu4cfr" name="返回_0000_资源加号.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true"/>
+    <image id="icfzcu4cfs" name="返回_0001_资源BG.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true" scale="9grid" scale9grid="24,14,6,5"/>
+    <image id="icfzcu4cft" name="返回_0002_返回按钮.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true"/>
+    <image id="icfzcu4cfu" name="返回_0003_帮助按钮.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true"/>
+    <image id="icfzcu4cfv" name="返回_0004_返回BG.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true" scale="9grid" scale9grid="370,5,1,2"/>
+    <image id="icfzcu4cfw" name="通用-已完成底.png" path="/A通用组件/通用按钮/通用按钮/" exported="true"/>
+    <image id="icfzcu4cfx" name="通用_0000_小红按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="18,11,2,3"/>
+    <image id="icfzcu4cfy" name="通用_0001_小黄按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="17,0,2,44"/>
+    <image id="icfzcu4cfz" name="通用_0002_小灰按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="18,11,2,3"/>
+    <image id="icfzcu4cg0" name="通用_0003_中红按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="13,31,2,2"/>
+    <image id="icfzcu4cg1" name="通用_0004_中黄按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="16,31,2,2"/>
+    <image id="icfzcu4cg2" name="通用_0005_中灰按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="41,31,2,2"/>
+    <image id="icfzcu4cg3" name="通用_0006_大红按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="49,0,2,66"/>
+    <image id="icfzcu4cg4" name="通用_0007_大黄按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="15,39,3,2"/>
+    <image id="icfzcu4cg5" name="通用_0008_大灰按钮.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="45,29,1,2"/>
+    <image id="icfzcu4cg6" name="通用_一级界面按钮bg.png" path="/A通用组件/通用按钮/通用按钮/" exported="true"/>
+    <image id="icfzcu4cg7" name="通用_按钮底.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="17,14,2,2"/>
+    <image id="icfzcu4cg8" name="页签_0000_页签未选中装饰.png" path="/A通用组件/通用按钮/通用页签/" exported="true"/>
+    <image id="icfzcu4cg9" name="页签_0001_弹出下拉选中BG.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <image id="icfzcu4cga" name="页签_0001_弹出左页签.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="122,5,2,0" smoothing="false"/>
+    <image id="icfzcu4cgb" name="页签_0001_页签选中装饰.png" path="/A通用组件/通用按钮/通用页签/" exported="true"/>
+    <image id="icfzcu4cgc" name="页签_0002_弹出左页签分割线.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="15,0,4,1"/>
+    <image id="icfzcu4cgd" name="页签_0002_页签选中.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="11,0,2,7"/>
+    <image id="icfzcu4cge" name="页签_0003_弹出左页签BG.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="3,0,2,256"/>
+    <image id="icfzcu4cgg" name="页签_0004_下拉页签选中.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="150,2,5,6"/>
+    <image id="icfzcu4cgi" name="页签_0004_页签选中左侧.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="163,3,4,2"/>
+    <image id="icfzcu4cgj" name="页签_0005_大页签BG.png" path="/A通用组件/通用按钮/通用页签/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <image id="icfzcu4cgk" name="页签_下拉已选中箭头.png" path="/A通用组件/通用按钮/通用页签/" exported="true"/>
+    <image id="icfzcu4cgl" name="页签_下拉未选中箭头.png" path="/A通用组件/通用按钮/通用页签/" exported="true"/>
+    <image id="icfzcu4cgm" name="技能_0000_技能未解锁.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4cgo" name="物品框_0001_新.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4cgq" name="物品框_0003_锁.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4cgr" name="物品框_0004_珍.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4cgt" name="物品框_0006_不能穿戴.png" path="/A通用组件/通用物品框/" exported="true" scale9grid="1,1,1,2"/>
+    <image id="icfzcu4cgu" name="物品框_0007_秘境星底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4cgv" name="物品框_0019_副.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4cgz" name="物品框_0023_限时红.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4ch0" name="物品框_0024_限时绿.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4ch1" name="物品框_0025_加号.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4ch2" name="物品框_0026_加号底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4ch4" name="物品框_0028_空.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4ch6" name="物品框_0030_红色底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4ch8" name="物品框_0032_粉色底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4cha" name="物品框_0034_紫色底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4chc" name="物品框_0036_绿色底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4chg" name="物品框_0040_金色底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4chi" name="物品框_0042_白色底.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4chj" name="通用_更多物品BG.png" path="/A通用组件/通用物品框/" exported="true" scale="9grid" scale9grid="3,3,1,2"/>
+    <image id="icfzcu4chk" name="通用_更多物品点.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="icfzcu4chl" name="通用_背景20%遮罩.png" path="/A通用组件/通用背景/" exported="true" scale="9grid" scale9grid="3,4,2,1"/>
+    <image id="alp5cu4cdx" name="主界面_任务_主线任务底.png" path="/new_ui/frame/" exported="true" scale="9grid" scale9grid="0,3,129,3"/>
+    <image id="n6z8cu4chm" name="主界面_屏幕下压暗.png" path="/new_ui/" exported="true"/>
+    <image id="dnba0" name="铸兵坊_箭头2.png" path="/" exported="true"/>
+    <image id="bncmd" name="铸兵坊_箭头1.png" path="/" exported="true"/>
+    <image id="lygxz9f" name="弹框_0000_恭喜获得装饰.png" path="/" exported="true"/>
+    <image id="i7esz9h" name="弹框_0000_花纹.png" path="/" exported="true"/>
+    <image id="rsr84l" name="技能_加点提示框.png" path="/" exported="true" scale="9grid" scale9grid="70,11,9,3"/>
+    <image id="g17ycu4chm" name="登录_0008_特红.png" path="/new_ui/button/" exported="true" scale="9grid" scale9grid="37,0,5,70"/>
+    <image id="zqvluocab" name="行囊_信息箭头.png" path="/" exported="true"/>
+    <image id="v3tlp" name="组队_申请列表_推荐选中.png" path="/" exported="true" scale="9grid" scale9grid="5,0,1,42"/>
+    <image id="nfszcu4cfr" name="好友_对话框_深色.png" path="/new_ui/frame/" exported="true" scale="9grid" scale9grid="9,10,1,0"/>
+    <image id="as6nc" name="好友_对话BG.png" path="/new_ui/frame/" exported="true" scale="9grid" scale9grid="10,11,1,1"/>
+    <image id="j2fxwc6r" name="战斗_0002_星星-灰.png" path="/new_ui/" exported="true"/>
+    <image id="j2fxwc6s" name="战斗_0003_星星-亮.png" path="/new_ui/" exported="true"/>
+    <image id="j07yro8z" name="战斗_0014_经验条&amp;吟唱条&amp;队友血条；高光白.png" path="/" exported="true"/>
+    <image id="q7dc1r" name="商店_搜索BG.png" path="/" exported="true" scale="9grid" scale9grid="28,22,0,1"/>
+    <image id="q7dc2e" name="拍卖行_物品单价下拉.png" path="/" exported="true"/>
+    <image id="hj9sb" name="寄售物品_商店BG.png" path="/" exported="true" scale="9grid" scale9grid="12,11,1,1"/>
+    <image id="bncmb" name="铸兵坊_加号.png" path="/" exported="true"/>
+    <image id="f9xx1j" name="背包_武器切换.png" path="/" exported="true"/>
+    <image id="f9xx1i" name="背包_武器切换BG.png" path="/" exported="true"/>
+    <image id="mrx64" name="每日_玩法详情_右面页签黑BG.png" path="/" exported="true" scale="9grid" scale9grid="64,4,128,2"/>
+    <image id="jatswi" name="设置-全屏-操作-底框.png" path="/" exported="true" scale="9grid" scale9grid="17,0,4,26"/>
+    <image id="10gjwd" name="设置_选项底图.png" path="/" exported="true" scale9grid="31,7,-3,14"/>
+    <image id="10gjwe" name="设置_选中.png" path="/" exported="true"/>
+    <image id="gmrqcu4cho" name="档案_详细信息_方形方框.png" path="/" exported="true" scale="9grid" scale9grid="18,0,4,33"/>
+    <image id="ogwy7" name="排行榜_排名底.png" path="/" exported="true"/>
+    <image id="t3z43u" name="主界面_聊天频道翻页按钮.png" path="/" exported="true"/>
+    <image id="t3z43v" name="主界面_聊天频道设置按钮.png" path="/" exported="true"/>
+    <image id="as6nm" name="好友_垃圾桶.png" path="/" exported="true"/>
+    <image id="as6nk" name="好友_礼物_底.png" path="/" exported="true"/>
+    <image id="q7dc1x" name="拍卖行_感叹号.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="as6ne" name="好友_进度条.png" path="/" exported="true" scale="9grid" scale9grid="11,13,188,3"/>
+    <image id="as6no" name="好友_进度条底.png" path="/" exported="true" scale="9grid" scale9grid="13,11,3,2"/>
+    <image id="n54suz8v" name="创角_五星.png" path="/" exported="true"/>
+    <image id="lken1s" name="主界面_功能图标_底图1.png" path="/A通用组件/通用其它资源/" exported="true" duplicatePadding="true"/>
+    <image id="jfracu4chr" name="对话框.png" path="/com/" exported="true" scale="9grid" scale9grid="49,31,4,2"/>
+    <image id="jfracu4chs" name="对话框三角.png" path="/com/" exported="true"/>
+    <image id="t3z41i" name="点击跳过底.png" path="/frame/" exported="true"/>
+    <image id="myoncu4chu" name="通用_冒泡框2.png" path="/A通用组件/通用其它资源/" exported="true" scale="9grid" scale9grid="16,12,3,3"/>
+    <image id="myoncu4chv" name="通用_冒泡小箭头2.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="v3tlm" name="组队_队伍界面_聊天.png" path="/" exported="true"/>
+    <image id="v3tln" name="组队_队伍界面_评分底.png" path="/" exported="true" scale="9grid" scale9grid="42,0,4,27"/>
+    <image id="v3tl8" name="组队_组队大厅_右侧队伍深色.png" path="/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
+    <image id="wxdv1fqs6kk" name="主界面_聊天_军团.png" path="/tag/" exported="true" scale="9grid" scale9grid="10,0,1,22"/>
+    <image id="v3tl0" name="组队_修改信息界面_队伍角色底.png" path="/A通用组件/通用TIPS/小TIPS/" exported="true" scale="9grid" scale9grid="10,9,3,5"/>
+    <image id="iaty1fqs6kl" name="开箱-装备_0001_前往装备制作按钮.png" path="/new_ui/button/" exported="true" scale="9grid" scale9grid="20,6,22,37"/>
+    <image id="iaty1fqs6km" name="开箱-装备_0000_前往装备制作按钮装饰.png" path="/new_ui/button/" exported="true"/>
+    <image id="fko61fqs6ko" name="背包tips按钮_0000_4.png" path="/A通用组件/通用按钮/通用按钮/" exported="true" scale="9grid" scale9grid="28,30,2,1"/>
+    <image id="ac821fqs6kp" name="推荐.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="g5umu" name="fl_zxqd_0017_已领取.png" path="/" exported="true"/>
+    <image id="hxn318" name="宝匣_奖励预览.png" path="/A通用组件/通用按钮/通用按钮/" exported="true"/>
+    <image id="jmsf1fqs6kq" name="主界面_右侧角按钮底.png" path="/button/" exported="true"/>
+    <image id="p6b81fqs6kr" name="背包_仓库_左侧标题底.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="4,3,1,2"/>
+    <image id="p6b81fqs6ks" name="背包_仓库_左侧底.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="6,4,1,1"/>
+    <image id="s5qo1fqs6kt" name="弹框_0003_弹出条BG.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="9,9,2,2"/>
+    <image id="s5qo1fqs6ku" name="弹框_005_弹出顶部底.png" path="/A通用组件/通用弹框/" exported="true" scale="9grid" scale9grid="6,0,2,50"/>
+    <image id="aooki" name="日常_活跃进度条.png" path="/progressBar/" exported="true" scale9grid="40,2,176,4"/>
+    <image id="aookj" name="日常_活跃进度条底.png" path="/progressBar/" exported="true" scale="9grid" scale9grid="4,4,2,8"/>
+    <image id="vay04" name="军团签到_0000_进度条底.png" path="/progressBar/" exported="true" scale="9grid" scale9grid="4,4,4,2"/>
+    <image id="bq0u1fqs6ks" name="通用_新物品框_0001_蓝.png" path="/A通用组件/通用物品框/" exported="true"/>
+    <image id="udug1rdfitq" name="sssc.png" path="/new_ui/topbar/" exported="true"/>
+    <image id="udug1rdfito" name="xingliz.png" path="/new_ui/topbar/" exported="true"/>
+    <image id="t3ok1rdfitr" name="增益_0005_感叹号详情.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="xw8v1rdfitr" name="商城_折扣线.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true" scale="9grid" scale9grid="6,0,6,2"/>
+    <image id="xw8v1rdfits" name="IOS退款_小提示.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true" scale="9grid" scale9grid="26,0,3,28"/>
+    <image id="kkib1rdfitt" name="聊天提示.png" path="/" exported="true"/>
+    <image id="kkib1rdfitu" name="主界面_活动图标_0001_邮件.png" path="/" exported="true"/>
+    <image id="djta5" name="未标题-8_0001_邀请好友-.png" path="/A通用组件/通用按钮/通用按钮/" exported="true"/>
+    <image id="ado1wuoca9" name="武道会_退出icon.png" path="/button/" exported="true"/>
+    <image id="ado1wuocaa" name="武道会_退出底图.png" path="/button/" exported="true" scale="9grid" scale9grid="56,8,5,3" duplicatePadding="true"/>
+    <image id="eyildc" name="背包_提示bg.png" path="/button/" exported="true"/>
+    <image id="p55p1rdfitv" name="关卡_关卡选中框.png" path="/A通用组件/通用其它资源/选中框/" exported="true" scale="9grid" scale9grid="34,39,4,4"/>
+    <image id="tmk20" name="宠物经验_进度条.png" path="/" exported="true" scale="9grid" scale9grid="5,0,2,24"/>
+    <image id="i5zn1rdfitw" name="变强_我要变强图标.png" path="/button/" exported="true"/>
+    <image id="i5zn1rdfitx" name="变强_气泡角.png" path="/A通用组件/通用其它资源/" exported="true"/>
+    <image id="i5zn1rdfity" name="团本_战况表_0005_黑冒泡上.png" path="/A通用组件/通用其它资源/" exported="true" scale="9grid" scale9grid="18,15,1,2" duplicatePadding="true"/>
+    <image id="z3ry1rdfitw" name="主界面_上侧图标底.png" path="/button/" exported="true"/>
+    <image id="z3ry1rdfity" name="主界面_右下侧图标底.png" path="/button/" exported="true"/>
+    <image id="gbic1rdfitv" name="寄售行_计算器.png" path="/" exported="true"/>
+    <image id="ds0uc" name="背包_右侧物品框_空.png" path="/" exported="true"/>
+    <image id="10oaq1rdfitz" name="宠物_0003_属性底.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="3,3,4,3"/>
+    <image id="imvr37" name="拍卖行_0001_+.png" path="/" exported="true"/>
+    <image id="o5mq1rdfitz" name="宠物_0002_宠物查看按钮.png" path="/" exported="true" scale="9grid" scale9grid="5,0,3,45"/>
+    <image id="o5mq1rdfiu0" name="宠物_0004_宠物技能底.png" path="/A通用组件/通用其它资源/遮罩/" exported="true" scale="9grid" scale9grid="5,3,2,2"/>
+    <image id="o5mq1rdfiu1" name="通用_单向渐变底_001.png" path="/" exported="true"/>
+    <image id="o5mq1rdfiu2" name="宠物_0006_资质进度条.png" path="/" exported="true"/>
+    <image id="edpl4" name="zdsz_0003_问号.png" path="/" exported="true"/>
+    <image id="j2fu1rdfiu3" name="登录_0001_loding底.png" path="/button/" exported="true" scale="9grid" scale9grid="3,4,3,2"/>
+    <image id="qp721rdfitz" name="重置.png" path="/button/" exported="true"/>
+    <image id="gqbf1rdfiu0" name="拍卖行_翻页左右.png" path="/button/" exported="true"/>
+    <image id="m1u01rdfitv" name="zdsz_0003_问号.png" path="/A通用组件/通用按钮/返回资源栏/" exported="true"/>
+    <image id="8txe1rdfiu0" name="聊天_底框.png" path="/tag/" exported="true" scale="9grid" scale9grid="3,87,3,7"/>
+    <image id="8txe1rdfiu1" name="感叹提示.png" path="/chat/" exported="true"/>
+    <image id="8txe1rdfiu2" name="聊天_对话框底图.png" path="/chat/" exported="true" scale="9grid" scale9grid="15,15,3,1"/>
+    <image id="8txe1rdfiu4" name="聊天_关闭按钮底.png" path="/chat/" exported="true" scale="9grid" scale9grid="2,0,4,102"/>
+    <image id="8txe1rdfiu5" name="聊天_新信息提示框.png" path="/chat/" exported="true" scale="9grid" scale9grid="8,10,3,2"/>
+    <image id="jsgn1rdfiu7" name="聊天_私信提示底图.png" path="/chat/" exported="true" scale="9grid" scale9grid="9,9,2,2"/>
+    <image id="mubt1rdfiu8" name="问卷反馈_气泡框.png" path="/chat/" exported="true" scale="9grid" scale9grid="5,0,5,57"/>
+    <image id="mubt1rdfiu9" name="问卷反馈_气泡框2.png" path="/chat/" exported="true"/>
+    <image id="10ii61rdfiu0" name="主界面_提示2.png" path="/A通用组件/通用其它资源/" exported="true" scale="9grid" scale9grid="18,0,3,31"/>
+    <image id="tqfd1rdfiu0" name="珍宝阁_按钮_黄.png" path="/button/" exported="true" scale="9grid" scale9grid="20,0,3,68"/>
+    <image id="hkfz1rdfiua" name="主线关卡优化_0000_强化大师提示icon.png" path="/button/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

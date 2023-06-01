@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="202,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGrayed" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_dogm" name="_iconBg" xy="0,0" size="202,80" url="ui://pv2o4pb9cj0puoc85" fill="scaleFree" autoSize="true">
+      <gearIcon controller="ctrlGrayed" pages="1" values="ui://pv2o4pb9q4tguoc65" default="ui://pv2o4pb9cj0puoc85"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_mrmz" name="title" xy="65,20" size="72,34"  fontSize="30" color="#ffffff" leading="0" letterSpacing="-4" text="确定">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

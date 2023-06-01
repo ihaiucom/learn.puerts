@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,40" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <richtext id="n3_neb5" name="title" xy="17,4" size="136,32" fontSize="22" color="#fedb97" align="center" vAlign="middle" ubb="true" singleLine="true" text="[url=1]其他获取途径[/url]">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+  <relation target="n3_neb5" sidePair="width-width,height-height"/>
+</component>

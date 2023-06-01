@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7hlhkjnw">
+  <resources>
+    <component id="mrmzu4c4d" name="MiddleFrame.xml" path="/" exported="true"/>
+    <component id="mrmzu4c4a" name="SmallFrame.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

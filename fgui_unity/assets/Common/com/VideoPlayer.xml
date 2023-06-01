@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" initName="comVideoPlayer">
+  <displayList>
+    <graph id="n0_nyek" name="bg" xy="-335,-187" size="1982,1131" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width%,height-height%,center-center%,middle-middle%"/>
+    </graph>
+  </displayList>
+  <transition name="anim_out">
+    <item time="0" type="Alpha" target="n0_nyek" value="1"/>
+    <item time="18" type="Alpha" target="n0_nyek" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="anim_in">
+    <item time="0" type="Alpha" target="n0_nyek" tween="true" startValue="0" endValue="1" duration="18"/>
+  </transition>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="78,73" margin="6,0,0,0" designImage="ui://wfyzfy4rjjqhuocck" designImageOffsetX="-206" designImageOffsetY="-245" extention="Button" designImageAlpha="0">
+  <controller name="oneOnoneChat" exported="true" pages="0,false,1,true and me,2,true and other" selected="0"/>
+  <displayList>
+    <image id="n21_mubt" name="n21" src="mubt1rdfiu9" fileName="chat/问卷反馈_气泡框2.png" pkg="pv2o4pb9" xy="45,63" group="n23_mubt" scale="1,-1" rotation="-90"/>
+    <image id="n20_mubt" name="n20" src="mubt1rdfiu8" fileName="chat/问卷反馈_气泡框.png" pkg="pv2o4pb9" xy="0,0" size="78,57" group="n23_mubt"/>
+    <text id="n22_mubt" name="n22" xy="15,12" size="48,32" group="n23_mubt" fontSize="22" color="#ffffff" text="复制"/>
+    <group id="n23_mubt" name="n23" xy="0,0" size="78,73"/>
+  </displayList>
+</component>

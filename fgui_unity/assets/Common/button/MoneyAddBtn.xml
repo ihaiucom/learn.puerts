@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,48" extention="Button">
+  <displayList>
+    <image id="n4_dogm" name="_add" src="icfzcu4cfr" fileName="new_ui/topbar/资源_加号.png" pkg="pv2o4pb9" xy="8,8"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

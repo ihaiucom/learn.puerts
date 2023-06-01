@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="ctrlTab" pages="0,Login,2,Server" selected="0">
+    <remark page="0" value="登录"/>
+    <remark page="1" value="选服"/>
+  </controller>
+  <displayList>
+    <component id="n1_xy38" name="screenBG" src="f84s1" fileName="ScreenBG.xml" pkg="pvdu3cm7" xy="667,375" pivot="0.5,0.5" anchor="true" size="1334,750" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label icon="ui://vheyy53yraanz8v"/>
+    </component>
+    <component id="n2_xy38" name="panelLogin" src="xy38a" fileName="LoginPanel.xml" xy="0,0">
+      <gearDisplay controller="ctrlTab" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n48_jpdo" name="panelServer" src="95cpp" fileName="ServerPanel.xml" xy="0,0">
+      <gearDisplay controller="ctrlTab" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n16_hla9" name="txt_server" xy="20,17" size="1334,33" fontSize="20" color="#9aa8bd" vAlign="middle" autoSize="none" autoClearText="true" text="server:">
+      <gearDisplay controller="ctrlTab" pages="0,2,5"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n11_c0ba" name="txt_gamever" xy="18,-8" size="297,33" fontSize="20" color="#9aa8bd" vAlign="middle" autoSize="none" autoClearText="true" text="GameVersion:1.0.18">
+      <gearDisplay controller="ctrlTab" pages="0,2,5"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n10_rgjd" name="n10" xy="667,696" pivot="0.5,0" anchor="true" size="800,24" fontSize="16" color="#a98e67" align="center" vAlign="middle" leading="0" singleLine="true" text="抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活&#xA;">
+      <relation target="" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n25_wlkn" name="n25" xy="667,718" pivot="0.5,0" anchor="true" size="1106,24" fontSize="16" color="#a98e67" align="center" leading="0" singleLine="true" text="著作权人：上海欢乐互娱网络科技有限公司 出版单位：华东理工大学电子音像出版社 审批文号：新广出审[2015]452号 出版物号：ISBN 978-7-89390-042-6">
+      <relation target="" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n46_c3l9" name="n46" xy="667,718" pivot="0.5,0" anchor="true" size="276,24" fontSize="16" color="#a98e67" align="center" leading="0" singleLine="true" text="著作权人：上海渌茗企业发展有限公司">
+      <relation target="" sidePair="center-center,top-bottom"/>
+    </text>
+  </displayList>
+</component>

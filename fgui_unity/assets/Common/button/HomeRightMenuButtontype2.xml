@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" extention="Button">
+  <controller name="ctrlReddot" exported="true" pages="0,none,1,number,2,dot" selected="0"/>
+  <displayList>
+    <image id="n3_fxf6" name="n3" src="icfzcu4cg6" fileName="A通用组件/通用按钮/通用按钮/通用_一级界面按钮bg.png" pkg="pv2o4pb9" xy="2,2"/>
+    <loader id="n2_fxf6" name="icon" xy="17,15" size="50,50" url="ui://pv2o4pb9hxn318" align="center" vAlign="middle" clearOnPublish="true"/>
+    <component id="n4_eqfx" name="reddot" src="in2g4c2s" fileName="reddot/NumberRedDot.xml" xy="52,6">
+      <gearDisplay controller="ctrlReddot" pages="1"/>
+    </component>
+    <image id="n5_eqfx" name="reddot1" src="slg930" fileName="reddot/小红点.png" pkg="pv2o4pb9" xy="56,8">
+      <gearDisplay controller="ctrlReddot" pages="2"/>
+    </image>
+    <text id="n1_fxf6" name="title" xy="0,57" pivot="0.5,0.5" size="84,29" fontSize="20" color="#fedb97" strokeColor="#000000" strokeSize="3" text="攻略指南"/>
+  </displayList>
+  <Button/>
+</component>

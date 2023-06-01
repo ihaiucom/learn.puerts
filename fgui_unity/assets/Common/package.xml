@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pvdu3cm7">
+  <resources>
+    <component id="dogmu" name="ButtonBack.xml" path="/button/" exported="true"/>
+    <component id="dogm10" name="Topbar.xml" path="/topbar/" exported="true"/>
+    <component id="dogm12" name="TopBarMoneyItem.xml" path="/topbar/" exported="true"/>
+    <component id="dogm13" name="MoneyAddBtn.xml" path="/button/" exported="true"/>
+    <component id="dogm16" name="_FrameContentBg.xml" path="/frame/" exported="true"/>
+    <component id="dogm19" name="FrameMask.xml" path="/frame/" exported="true"/>
+    <component id="930q1d" name="_BigFrameContentBg.xml" path="/frame/" exported="true"/>
+    <component id="930q1g" name="CheckBox.xml" path="/checkbox/" exported="true"/>
+    <component id="930q1h" name="ChangeNumberButton.xml" path="/button/" exported="true"/>
+    <component id="930q20" name="ComNumberHandle.xml" path="/com/" exported="true"/>
+    <component id="930q1i" name="MaxMinButton.xml" path="/button/" exported="true"/>
+    <component id="930q1s" name="QualityProgressBar.xml" path="/progressBar/" exported="true"/>
+    <component id="930q1y" name="TitleCheckBox.xml" path="/checkbox/" exported="true"/>
+    <component id="gptc4b" name="HeadIcon.xml" path="/com/Role/" exported="true"/>
+    <component id="in2g4c2s" name="NumberRedDot.xml" path="/reddot/" exported="true"/>
+    <component id="in2gz7l" name="TeamMember.xml" path="/com/" exported="true"/>
+    <component id="k79l4c2z" name="SpineContainer.xml" path="/spine/" exported="true"/>
+    <component id="i7f70" name="VideoPlayer.xml" path="/com/" exported="true"/>
+    <component id="gr0c4c3a" name="DetailMiddleButton.xml" path="/button/" exported="true"/>
+    <component id="q4tgu4c3g" name="ButtonLargeYellow.xml" path="/button/" exported="true"/>
+    <component id="q4tgu4c3h" name="ButtonLargeBlue.xml" path="/button/" exported="true"/>
+    <component id="q4tgu4c3i" name="ButtonMiddleBlue.xml" path="/button/" exported="true"/>
+    <component id="q4tgu4c3j" name="ButtonMiddleYellow.xml" path="/button/" exported="true"/>
+    <component id="b2c8u4c3k" name="ButtonSmallBlue.xml" path="/button/" exported="true"/>
+    <component id="b2c8u4c3l" name="ButtonSmallYellow.xml" path="/button/" exported="true"/>
+    <component id="b2c8u4c3n" name="ButtonAYellow.xml" path="/button/" exported="true"/>
+    <component id="bj5ou4c3o" name="ButtonBBlue.xml" path="/button/" exported="true"/>
+    <component id="cd2iu4c3v" name="ButtonClose.xml" path="/button/" exported="true"/>
+    <component id="cd2iu4c3w" name="ButtonHelp.xml" path="/button/" exported="true"/>
+    <component id="p7fic6j" name="Model3D.xml" path="/com/" exported="true"/>
+    <component id="f6jou4c5q" name="BlackFadeDialog.xml" path="/dialogs/gamedialogs/" exported="true"/>
+    <component id="speju4c70" name="SystemToastRichMessage.xml" path="/dialogs/" exported="true"/>
+    <component id="mecxu4c7y" name="CityNpcDialog.xml" path="/com/" exported="true"/>
+    <component id="f84s1" name="ScreenBG.xml" path="/" exported="true"/>
+    <component id="p7fic6i" name="BagFxContainer.xml" path="/" exported="true"/>
+    <component id="b7wpcu4cce" name="ButtonBookmark.xml" path="/button/" exported="true"/>
+    <component id="p7fic6h" name="FxAttrTextItem.xml" path="/com/" exported="true"/>
+    <component id="cssccu4cdk" name="FashionCheckBox.xml" path="/checkbox/" exported="true"/>
+    <component id="cssccu4cdl" name="FashionCheckBoxComponent.xml" path="/com/" exported="true"/>
+    <component id="oaiqcu4cdj" name="ButtonSweepBlue.xml" path="/button/" exported="true"/>
+    <component id="rtcscu4cfe" name="Topbar.xml" path="/Topbar/"/>
+    <component id="rtcscu4cff" name="TopBarMoneyItem.xml" path="/Topbar/"/>
+    <component id="x8lhcu4cdj" name="ExpandButton.xml" path="/button/" exported="true"/>
+    <component id="fxt6cu4cfg" name="ButtonMiddle.xml" path="/button/" exported="true"/>
+    <component id="cb61cu4cfk" name="BubbleType1.xml" path="/BubbleBox/type/" exported="true"/>
+    <component id="r7uy1f" name="BoBox3_popup.xml" path="/comboBox/" exported="true"/>
+    <component id="r7uy1e" name="ComboBox3_itemButton.xml" path="/comboBox/" exported="true"/>
+    <component id="r7uy1g" name="cbXComboBox3.xml" path="/comboBox/" exported="true"/>
+    <component id="k8okcu4cfp" name="ButtonCircle.xml" path="/button/" exported="true"/>
+    <component id="in2gz7o" name="RelationIcon.xml" path="/com/" exported="true"/>
+    <component id="nzo0cu4cfq" name="_SmallFrameContentBg.xml" path="/frame/" exported="true"/>
+    <component id="t9j00" name="SmallTitle.xml" path="/com/" exported="true"/>
+    <component id="c7l78" name="BagPropArrowButton.xml" path="/" exported="true"/>
+    <component id="pmgq3cv" name="SectionDropButton.xml" path="/" exported="true"/>
+    <component id="pmgq3cu" name="SectionDetailTitleBar.xml" path="/com/" exported="true"/>
+    <component id="8trocu4cfr" name="ButtonHelpBubble.xml" path="/button/" exported="true"/>
+    <component id="p91ncu4cfs" name="FixScreenBG.xml" path="/" exported="true"/>
+    <component id="f9xxc6s" name="btnChangeWeapon.xml" path="/" exported="true"/>
+    <component id="j1a2w6" name="SelectItem.xml" path="/" exported="true"/>
+    <component id="j1a2w7" name="BattleSettingSelectButton.xml" path="/" exported="true"/>
+    <component id="phyd6o" name="HomeTopMenuButton.xml" path="/button/" exported="true"/>
+    <component id="10fsvcu4cfu" name="RoleDesLabel.xml" path="/" exported="true"/>
+    <component id="tawpcu4cfu" name="SmallComboBox_popup.xml" path="/comboBox/" exported="true"/>
+    <component id="tawpcu4cfv" name="SmallComboBox_itemButton.xml" path="/comboBox/" exported="true"/>
+    <component id="tawpcu4cfw" name="SmallBox3.xml" path="/comboBox/" exported="true"/>
+    <component id="hk2l1rdfit7" name="HomeActivityMenuButton.xml" path="/button/" exported="true"/>
+    <component id="w0dm1rdfit8" name="RoleSkillModel3D.xml" path="/com/" exported="true"/>
+    <component id="jsc61rdfit8" name="CostButtonMiddle.xml" path="/button/" exported="true"/>
+    <component id="qpduk" name="SkipBtn.xml" path="/button/" exported="true"/>
+    <component id="myon1rdfit8" name="BubbleType2.xml" path="/BubbleBox/type/" exported="true"/>
+    <component id="cpdg4c39" name="CreateTeamFunctionButton.xml" path="/" exported="true"/>
+    <component id="ieax6c" name="ExtraTip.xml" path="/" exported="true"/>
+    <component id="eeio1rdfit8" name="cbXComboBox4.xml" path="/comboBox/" exported="true"/>
+    <component id="eeio1rdfit9" name="BoBox4_popup.xml" path="/comboBox/" exported="true"/>
+    <component id="eeio1rdfita" name="ComboBox4_itemButton.xml" path="/comboBox/" exported="true"/>
+    <component id="wtxg4c43" name="TeamCostButton.xml" path="/" exported="true"/>
+    <component id="brih1rdfitc" name="SmallRelationIcon.xml" path="/com/" exported="true"/>
+    <component id="kj241rdfitd" name="HomeRightMenuButton.xml" path="/button/" exported="true"/>
+    <component id="yl3g1rdfitd" name="HomeCountDownMenuButton.xml" path="/button/" exported="true"/>
+    <component id="iaty1rdfite" name="ButtonGoto.xml" path="/button/" exported="true"/>
+    <component id="qrg31rdfitf" name="BubbleTips.xml" path="/Tips/" exported="true"/>
+    <component id="ac821rdfitg" name="ButtonMinMax.xml" path="/button/" exported="true"/>
+    <component id="neb51rdfith" name="ButtonText.xml" path="/button/" exported="true"/>
+    <component id="fxf61rdfiti" name="HomeRightMenuButtontype2.xml" path="/button/" exported="true"/>
+    <component id="xngva" name="ProgressBar.xml" path="/progressBar/" exported="true"/>
+    <component id="jsc65" name="ProgressBarOneGap.xml" path="/progressBar/" exported="true"/>
+    <component id="udug1rdfitn" name="ResFX_UI_jingbi.xml" path="/topbar/" exported="true"/>
+    <component id="udug1rdfitp" name="ResFX_UI_jingbi_z.xml" path="/topbar/"/>
+    <component id="udug1rdfitr" name="ResFX_UI_dianquan.xml" path="/topbar/" exported="true"/>
+    <component id="udug1rdfits" name="ResFX_UI_dianquan_z.xml" path="/topbar/"/>
+    <component id="v3xr1rdfitt" name="ButtonSmall.xml" path="/button/" exported="true"/>
+    <component id="v3xr1rdfitu" name="CostCom.xml" path="/com/" exported="true"/>
+    <component id="i70p1rdfitv" name="ButtonIcon.xml" path="/button/" exported="true"/>
+    <component id="gv8h1rdfitj" name="RedPack.xml" path="/button/" exported="true"/>
+    <component id="jnz51rdfitt" name="MonsterView3D.xml" path="/Pannel/" exported="true"/>
+    <component id="pwse1rdfitx" name="ButtonGraySmall.xml" path="/button/" exported="true"/>
+    <component id="pwse1rdfitz" name="PetView3D.xml" path="/Pannel/" exported="true"/>
+    <component id="as4a1rdfitx" name="ButtonDelete.xml" path="/button/" exported="true"/>
+    <component id="j3oi1rdfitu" name="TopbarMenuButton.xml" path="/topbar/" exported="true"/>
+    <component id="ado1cu4c9h" name="ExitButton.xml" path="/button/" exported="true"/>
+    <component id="i5zn1rdfitw" name="PoorScoreTip.xml" path="/com/" exported="true"/>
+    <component id="l9l71rdfitw" name="cbXComboBoxMiddle.xml" path="/comboBox/" exported="true"/>
+    <component id="gbic1rdfity" name="ButtonNumCalculator.xml" path="/button/" exported="true"/>
+    <component id="gbic1rdfitz" name="ButtonRefresh.xml" path="/button/" exported="true"/>
+    <component id="gbic1rdfiu0" name="GoldSaleBtnRefresh.xml" path="/component/"/>
+    <component id="o5mq1rdfiu1" name="AddBtn.xml" path="/button/" exported="true"/>
+    <component id="edpl4" name="MobileButtonSettingHelpBtn.xml" path="/button/" exported="true"/>
+    <component id="9arh1rdfiu1" name="ArenaLevelView.xml" path="/component/" exported="true"/>
+    <component id="yxeiu4c67" name="UnderLineTxtComp.xml" path="/com/" exported="true"/>
+    <component id="gqbf1rdfiu2" name="TitleSortButton.xml" path="/button/" exported="true"/>
+    <component id="jwqa1rdfiu2" name="ChatSettingButton.xml" path="/" exported="true"/>
+    <component id="mubt1rdfiu3" name="CopyContentButton.xml" path="/button/" exported="true"/>
+    <component id="n2ui1rdfiu4" name="CopyContentButtonContainer.xml" path="/Pannel/" exported="true"/>
+    <component id="bavd1rdfiu1" name="ItemGotComponent.xml" path="/com/" exported="true"/>
+    <component id="tqfd1rdfiu2" name="ButtonLargeActivityBlue.xml" path="/button/" exported="true"/>
+    <component id="dojh1rdfiu5" name="PoorForgeTip.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

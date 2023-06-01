@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="118,31" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n3_gbic" name="btnRefresh" src="gbic1rdfiu0" fileName="component/GoldSaleBtnRefresh.xml" xy="-10,-2"/>
+    <text id="n4_gbic" name="n4" xy="29,-1" size="44,29" fontSize="20" color="#fedb97" underline="true" text="刷新"/>
+    <text id="n5_gbic" name="txtRefreshCD" xy="64,-1" size="54,29" fontSize="20" color="#fedb97" vars="true" text="（{time=3}）"/>
+  </displayList>
+  <Button/>
+</component>

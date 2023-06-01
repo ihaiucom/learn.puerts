@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="680,209" initName="_comContentBg">
+  <controller name="isSmall" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n8_mrmz" name="n8" src="hg3hcu4cdr" fileName="技能_0003_视频顶部.png" pkg="pv2o4pb9" xy="0,0" size="680,209">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

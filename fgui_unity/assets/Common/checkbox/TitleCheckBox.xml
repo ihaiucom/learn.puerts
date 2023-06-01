@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="128,38" extention="Button" designImage="ui://pvdu3cm783s3cu4cfm" designImageOffsetX="-1103" designImageOffsetY="-352">
+  <controller name="ctrlIsSelect" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <image id="n0_930q" name="_bg" src="dogm1t" fileName="button/勾选_BG.png" pkg="pv2o4pb9" xy="5,5" size="26,26"/>
+    <image id="n1_930q" name="_check" src="icfzcu4cer" fileName="A通用组件/通用其它资源/勾选框/弹框_0000_对号.png" pkg="pv2o4pb9" xy="4,-5" aspect="true">
+      <gearDisplay controller="ctrlIsSelect" pages="1"/>
+    </image>
+    <text id="n2_930q" name="title" xy="43,3" size="84,29" fontSize="20" color="#fedb97" vAlign="middle" singleLine="true" text="今天不再"/>
+  </displayList>
+  <Button/>
+  <relation target="n2_930q" sidePair="rightext-right"/>
+  <transition name="txt" autoPlay="true">
+    <item time="0" type="Alpha" target="n0_930q" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n2_930q" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+</component>

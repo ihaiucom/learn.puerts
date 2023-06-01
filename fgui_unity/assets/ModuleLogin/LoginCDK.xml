@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,406" designImageOffsetX="-318" designImageOffsetY="-180" designImageAlpha="63">
+  <displayList>
+    <component id="n23_hu2n" name="comFrame" src="mrmzu4c4a" fileName="SmallFrame.xml" pkg="7hlhkjnw" xy="0,0" controller="typeCtrl,0,ButtonCountCtrl,2,hideCloseCtrl,1">
+      <Label title="激活码登录"/>
+      <property target="btn1.title" propertyId="0" value="取消"/>
+      <property target="btn2.title" propertyId="0" value="登录"/>
+    </component>
+    <component id="n25_hu2n" name="_comFrameBg" src="nzo0cu4cfq" fileName="frame/_SmallFrameContentBg.xml" pkg="pvdu3cm7" xy="10,70" size="644,222"/>
+    <image id="n21_d5qo" name="n21" src="icfzcu4ceu" fileName="A通用组件/通用其它资源/输入框/输入框402f24-100%.png" pkg="pv2o4pb9" xy="277,166" size="200,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n22_d5qo" name="itxtCDK" xy="278,167" size="230,37" fontSize="24" color="#fedb97" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="" input="true" prompt="点击输入激活码" maxLength="99"/>
+    <text id="n24_hu2n" name="n24" xy="188,169" size="76,34" fontSize="24" color="#fedb97" text="激活码"/>
+  </displayList>
+</component>

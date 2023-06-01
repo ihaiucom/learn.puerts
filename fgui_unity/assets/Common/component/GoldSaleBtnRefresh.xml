@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="33,33" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_gbic" name="n5" src="icfzcu4ceu" fileName="A通用组件/通用其它资源/输入框/输入框402f24-100%.png" pkg="pv2o4pb9" xy="0,0" size="33,33"/>
+    <image id="n4_l9l7" name="n4" src="f9xx1j" fileName="背包_武器切换.png" pkg="pv2o4pb9" xy="7,7"/>
+  </displayList>
+  <Button/>
+</component>

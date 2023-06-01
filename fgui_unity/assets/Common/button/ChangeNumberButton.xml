@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,42" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="ctrlIsAdd" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_930q" name="imgBackground" xy="0,0" size="42,42" url="ui://pv2o4pb9icfzcu4cfe" autoSize="true"/>
+    <loader id="n0_930q" name="icon" xy="22,21" pivot="0.5,0.5" anchor="true" size="24,3" url="ui://pv2o4pb9icfzcu4cfc" align="center" vAlign="middle" autoSize="true">
+      <gearIcon controller="ctrlIsAdd" pages="0,1" values="ui://pv2o4pb9icfzcu4cfc|ui://pv2o4pb9icfzcu4cfa"/>
+    </loader>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

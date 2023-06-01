@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <loader id="n2_p7fi" name="imgScene" xy="0,0" size="500,500">
+      <relation target="" sidePair="width-width,height-height,center-center%,middle-middle%"/>
+    </loader>
+  </displayList>
+</component>

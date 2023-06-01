@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,52" extention="Button" initName="btn" designImage="ui://pvdu3cm7dw6fcu4cfl" designImageOffsetX="-3604" designImageOffsetY="-1682" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGrayed" exported="true" pages="0,,1," selected="0"/>
+  <controller name="ctrlBg" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n3_qrg3" name="bg" xy="0,0" size="150,52" url="ui://pv2o4pb9icfzcu4cg1" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="ctrlBg" pages="0,1,2" values="ui://pv2o4pb9icfzcu4cg1|ui://pv2o4pb9fko61fqs6ko|ui://pv2o4pb9icfzcu4cg3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n0_dogm" name="iconBg" xy="0,0" size="150,52" fill="scaleFree">
+      <gearIcon controller="ctrlGrayed" pages="1" values="ui://pv2o4pb9icfzcu4cg2" default=""/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_mrmz" name="title" xy="75,26" pivot="0.5,0.5" anchor="true" size="52,34" fontSize="24" color="#fef2da" align="center" leading="0" autoClearText="true" text="确定">
+      <gearColor controller="ctrlGrayed" pages="0,1" values="#fef2da,#000000|#dcd4c6,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <customProperty target="iconBg" propertyId="1"/>
+</component>

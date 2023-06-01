@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="562,100" designImageOffsetX="-357" designImageOffsetY="-205">
+  <displayList>
+    <image id="n1_j1a2" name="n1" src="icfzcu4cf2" fileName="A通用组件/通用其它资源/遮罩/通用_一级界面信息条BG.png" pkg="pv2o4pb9" xy="0,0" size="562,100" group="n12_9n0e">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_j1a2" name="n3" src="icfzcu4cep" fileName="A通用组件/通用其它资源/分割线/通用_0005_2像素分割线.png" pkg="pv2o4pb9" xy="281,44" pivot="0.5,0.5" anchor="true" size="540,2" group="n12_9n0e">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n2_j1a2" name="title" xy="8,9" size="44,29" group="n12_9n0e" fontSize="20" color="#fedb97" text="特效"/>
+    <component id="n5_j1a2" name="leftBtn" src="j1a2w7" fileName="BattleSettingSelectButton.xml" xy="377,62" group="n10_kxu8"/>
+    <text id="n8_j1a2" name="leftTxt" xy="410,62" size="40,26" group="n10_kxu8" fontSize="18" color="#fedb97" text="低级"/>
+    <group id="n10_kxu8" name="n10" xy="377,62" size="82,26" group="n12_9n0e" advanced="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+    <component id="n7_j1a2" name="rightBtn" src="j1a2w7" fileName="BattleSettingSelectButton.xml" xy="472,62" group="n11_kxu8"/>
+    <text id="n9_j1a2" name="rightTxt" xy="505,62" size="40,26" group="n11_kxu8" fontSize="18" color="#fedb97" text="高级"/>
+    <group id="n11_kxu8" name="n11" xy="472,62" size="82,26" group="n12_9n0e" advanced="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+    <group id="n12_9n0e" name="n12" xy="0,0" size="562,100"/>
+  </displayList>
+  <customProperty target="leftTxt" propertyId="0"/>
+  <customProperty target="rightTxt" propertyId="0"/>
+  <customProperty target="title" propertyId="0"/>
+</component>

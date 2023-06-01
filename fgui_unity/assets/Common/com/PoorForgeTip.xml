@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="402,34" initName="btnScoreTip">
+  <displayList>
+    <richtext id="n4_q45n" name="rtxtScore" xy="0,2" size="194,29" touchable="false" fontSize="20" color="#fedb97" ubb="true" singleLine="true" autoClearText="true" text="强化大师等级：5(10)"/>
+    <image id="n0_i5zn" name="n0" src="hkfz1rdfiua" fileName="button/主线关卡优化_0000_强化大师提示icon.png" pkg="pv2o4pb9" xy="200,0" group="n5_q45n"/>
+    <image id="n2_i5zn" name="n2" src="i5zn1rdfity" fileName="A通用组件/通用其它资源/团本_战况表_0005_黑冒泡上.png" pkg="pv2o4pb9" xy="242,16" pivot="0,0.5" anchor="true" size="158,33" group="n5_q45n">
+      <relation target="n3_i5zn" sidePair="rightext-right"/>
+    </image>
+    <image id="n1_i5zn" name="n1" src="i5zn1rdfitx" fileName="A通用组件/通用其它资源/变强_气泡角.png" pkg="pv2o4pb9" xy="238,16" pivot="0,0.5" anchor="true" group="n5_q45n"/>
+    <text id="n3_i5zn" name="n3" xy="248,16" pivot="0,0.5" anchor="true" size="148,26" group="n5_q45n" fontSize="18" color="#fedb97" vAlign="middle" singleLine="true" text="强化大师需要提升"/>
+    <group id="n5_q45n" name="groupTip" xy="200,0" size="200,34" advanced="true">
+      <relation target="n4_q45n" sidePair="left-right"/>
+    </group>
+  </displayList>
+  <relation target="n3_i5zn" sidePair="rightext-right"/>
+</component>

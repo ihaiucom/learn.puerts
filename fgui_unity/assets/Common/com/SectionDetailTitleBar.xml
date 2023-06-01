@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="202,29" extention="Label" initName="comFatigue">
+  <displayList>
+    <image id="n73_pmgq" name="n73" src="vuec2r" fileName="new_ui/other/主界面_信息框体力图标.png" pkg="pv2o4pb9" xy="0,5"/>
+    <richtext id="n74_pmgq" name="title" xy="27,-1" size="136,32" fontSize="22" color="#ffc554" vAlign="middle" ubb="true" vars="true" autoClearText="true" text="体力：12/120"/>
+    <component id="n75_o31e" name="btnAdd" src="dogm13" fileName="button/MoneyAddBtn.xml" xy="154,-4" scale="0.8,0.8">
+      <relation target="n74_pmgq" sidePair="left-right"/>
+    </component>
+  </displayList>
+</component>

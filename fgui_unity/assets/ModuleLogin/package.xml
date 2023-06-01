@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4698ugpk">
+  <resources>
+    <component id="h1h60" name="LoginWindowUI.xml" path="/" exported="true"/>
+    <component id="xy38a" name="LoginPanel.xml" path="/" exported="true"/>
+    <component id="95cpf" name="PasswordButton.xml" path="/Component~NCode/"/>
+    <component id="95cpi" name="AccountButton.xml" path="/Component/" exported="true"/>
+    <component id="95cpp" name="ServerPanel.xml" path="/" exported="true"/>
+    <component id="vt5q1u" name="LoginCommonButton.xml" path="/Component~NCode/"/>
+    <component id="5j2m35" name="ArrowButton.xml" path="/Component~NCode/"/>
+    <component id="j9pw44" name="PrivacyPolicyButton.xml" path="/Component~NCode/"/>
+    <component id="j9pw45" name="ChoosePolicyButton.xml" path="/Component/" exported="true"/>
+    <component id="dupk4b" name="RoleItemMask.xml" path="/Component~NCode/"/>
+    <component id="i9964d" name="LoginCDK.xml" path="/" exported="true"/>
+    <component id="hu2n4s" name="ServerStatusItem.xml" path="/Component~NCode/" exported="true"/>
+    <component id="hu2n4t" name="ServerSelectedItem.xml" path="/" exported="true"/>
+    <component id="dvvm4u" name="LoginSecurityKey.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="ModuleLogin" genCode="true" maxAtlasSize="512" sizeOption="mof"/>
+</packageDescription>

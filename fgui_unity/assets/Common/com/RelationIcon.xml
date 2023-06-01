@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,26" extention="Label">
+  <controller name="ctrlType" exported="true" pages="0,,1,friend,2,guild,3,private,4,world,5,system,6,team" selected="2">
+    <remark page="1" value="好友"/>
+    <remark page="2" value="军团"/>
+    <remark page="3" value="私聊"/>
+    <remark page="4" value="世界"/>
+    <remark page="5" value="系统"/>
+    <remark page="6" value="队伍"/>
+  </controller>
+  <displayList>
+    <loader id="n10_g7v5" name="icon" xy="26,13" pivot="0.5,0.5" anchor="true" size="52,26" url="ui://pv2o4pb9wxdv1fqs6kk" fill="scaleFree">
+      <gearIcon controller="ctrlType" pages="0,1,2,3,4,5,6" values="|ui://pv2o4pb9oz8qc2t|ui://pv2o4pb9wxdv1fqs6kk|ui://pv2o4pb9oz8qc2v|ui://pv2o4pb9oz8qc2u|ui://pv2o4pb9oz8qc2w|ui://pv2o4pb9ldaduoc98"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n24_f7qz" name="title" xy="6,0" pivot="0.5,0.5" size="40,26" fontSize="18" color="#FEF2DA" text="军团">
+      <gearText controller="ctrlType" pages="1,2,3,4,5,6" values="好友|军团|私聊|世界|系统|队伍" default="公会"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

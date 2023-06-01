@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="108,30" pivot="0.5,0.5" extention="Button" designImage="ui://ycma3q90enbh1i" designImageOffsetX="-137" designImageOffsetY="-168" designImageAlpha="0" designImageLayer="1">
+  <controller name="showIcon" exported="true" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <image id="n36_cpdg" name="n36" src="v3tln" fileName="组队_队伍界面_评分底.png" pkg="pv2o4pb9" xy="0,0" size="108,30" group="n18_g7v5"/>
+    <loader id="n16_g7v5" name="icon" xy="19,15" pivot="0.5,0.5" anchor="true" size="30,30" group="n18_g7v5" align="center" vAlign="middle" fill="scale" shrinkOnly="true" playing="false">
+      <gearDisplay controller="showIcon" pages="1"/>
+    </loader>
+    <text id="n17_g7v5" name="txtFatigueNum" xy="50,15" pivot="0.5,0.5" anchor="true" size="81,30" group="n18_g7v5" skew="0.5,0.5" fontSize="20" color="#fef2da" autoSize="none" singleLine="true" autoClearText="true" text="100000">
+      <gearXY controller="showIcon" pages="0,1" values="50,15|77,15"/>
+    </text>
+    <group id="n18_g7v5" name="n18" xy="0,0" size="108,30" advanced="true"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="326,34" initName="btnScoreTip">
+  <displayList>
+    <richtext id="n4_q45n" name="rtxtScore" xy="0,2" size="154,29" touchable="false" fontSize="20" color="#fedb97" ubb="true" singleLine="true" autoClearText="true" text="最低评分：00000"/>
+    <image id="n0_i5zn" name="n0" src="i5zn1rdfitw" fileName="button/变强_我要变强图标.png" pkg="pv2o4pb9" xy="160,0" group="n5_q45n"/>
+    <image id="n2_i5zn" name="n2" src="i5zn1rdfity" fileName="A通用组件/通用其它资源/团本_战况表_0005_黑冒泡上.png" pkg="pv2o4pb9" xy="202,16" pivot="0,0.5" anchor="true" size="122,33" group="n5_q45n"/>
+    <image id="n1_i5zn" name="n1" src="i5zn1rdfitx" fileName="A通用组件/通用其它资源/变强_气泡角.png" pkg="pv2o4pb9" xy="198,16" pivot="0,0.5" anchor="true" group="n5_q45n"/>
+    <text id="n3_i5zn" name="n3" xy="208,16" pivot="0,0.5" anchor="true" size="112,26" group="n5_q45n" fontSize="18" color="#fedb97" vAlign="middle" singleLine="true" text="评分需要提升"/>
+    <group id="n5_q45n" name="groupTip" xy="160,0" size="164,34" advanced="true">
+      <relation target="n4_q45n" sidePair="left-right"/>
+    </group>
+  </displayList>
+  <relation target="n3_i5zn" sidePair="rightext-right"/>
+</component>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false" designImage="ui://ujlfeni7j9pw1h" designImageAlpha="0">
+  <displayList>
+    <component id="n3_95cp" name="btnServer" src="hu2n4t" fileName="ServerSelectedItem.xml" xy="392,500">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="开始游戏"/>
+    </component>
+    <component id="n4_95cp" name="btnStart" src="bj5ou4c3o" fileName="button/ButtonBBlue.xml" pkg="pvdu3cm7" xy="532,596" pivot="0.5,0.5" size="270,69">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="开始游戏" selectedTitle="开始游戏"/>
+    </component>
+    <text id="n14_j9pw" name="n14" xy="468,665" size="184,29" group="n17_j9pw" fontSize="20" color="#fedb97" align="right" vAlign="middle" text="我已详细阅读并同意"/>
+    <component id="n15_j9pw" name="PrivacyPolicyButton" src="j9pw44" fileName="Component~NCode/PrivacyPolicyButton.xml" xy="649,665" group="n17_j9pw"/>
+    <component id="n16_j9pw" name="ChoosePolicyButton" src="j9pw45" fileName="Component/ChoosePolicyButton.xml" xy="439,669" group="n17_j9pw"/>
+    <group id="n17_j9pw" name="n17" xy="439,665" size="456,32" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n18_kq3b" name="btnBulletin" src="vt5q1u" fileName="Component~NCode/LoginCommonButton.xml" xy="40,109" group="n22_l2hp">
+      <Button icon="ui://ia0cmrp4g17y2"/>
+      <property target="txtTitle" propertyId="0" value="游戏公告"/>
+    </component>
+    <component id="n19_kq3b" name="btnQrCode" src="vt5q1u" fileName="Component~NCode/LoginCommonButton.xml" xy="40,209" group="n22_l2hp" visible="false">
+      <Button icon="ui://ia0cmrp4g17y1"/>
+      <property target="txtTitle" propertyId="0" value="扫码登录"/>
+    </component>
+    <component id="n20_kq3b" name="btnLoginOut" src="vt5q1u" fileName="Component~NCode/LoginCommonButton.xml" xy="40,211" group="n22_l2hp">
+      <Button icon="ui://ia0cmrp4hu2n3"/>
+      <property target="txtTitle" propertyId="0" value="退出登录"/>
+    </component>
+    <component id="n21_iwvt" name="btnService" src="vt5q1u" fileName="Component~NCode/LoginCommonButton.xml" xy="40,313" group="n22_l2hp">
+      <Button icon="ui://ia0cmrp4g17y0"/>
+      <property target="txtTitle" propertyId="0" value="联系客服"/>
+    </component>
+    <component id="n24_dvvm" name="btnFastLogin" src="vt5q1u" fileName="Component~NCode/LoginCommonButton.xml" xy="40,415" group="n22_l2hp">
+      <Button icon="ui://ia0cmrp4dvvm3f"/>
+      <property target="txtTitle" propertyId="0" value="快速登录"/>
+    </component>
+    <group id="n22_l2hp" name="n22" xy="40,109" size="79,385" advanced="true" layout="vt" lineGap="23" excludeInvisibles="true"/>
+  </displayList>
+</component>

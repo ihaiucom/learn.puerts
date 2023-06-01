@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <displayList>
+    <component id="n4_vxwx" name="n4" src="udug1rdfits" fileName="topbar/ResFX_UI_dianquan_z.xml" xy="2,2"/>
+    <image id="n2_tuwz" name="n2" src="udug1rdfito" fileName="new_ui/topbar/xingliz.png" pkg="pv2o4pb9" xy="-54,-71" pivot="0.5,0.5" size="157,157" aspect="true" scale="0.19,0.19" blend="add" color="#ecab23"/>
+    <image id="n3_tuwz" name="n3" src="udug1rdfito" fileName="new_ui/topbar/xingliz.png" pkg="pv2o4pb9" xy="-40,-29" pivot="0.5,0.5" size="133,133" aspect="true" scale="0.12,0.12" rotation="4" blend="add" color="#ecab23"/>
+  </displayList>
+  <transition name="fxshine" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n2_tuwz" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="0" type="Alpha" target="n3_tuwz" value="0"/>
+    <item time="0" type="Rotation" target="n2_tuwz" tween="true" startValue="0" endValue="60" duration="19"/>
+    <item time="0" type="Rotation" target="n3_tuwz" value="4"/>
+    <item time="0" type="Transition" target="n4_vxwx" value="fxmove"/>
+    <item time="0" type="XY" target="n2_tuwz" value="-54,-71"/>
+    <item time="0" type="XY" target="n3_tuwz" value="-51,-33"/>
+    <item time="4" type="Alpha" target="n3_tuwz" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="4" type="Rotation" target="n3_tuwz" tween="true" startValue="4" endValue="80" duration="19"/>
+    <item time="7" type="Alpha" target="n2_tuwz" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="11" type="Alpha" target="n3_tuwz" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="20" type="Alpha" target="n2_tuwz" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="20" type="Rotation" target="n2_tuwz" tween="true" startValue="0" endValue="60" duration="19"/>
+    <item time="20" type="XY" target="n2_tuwz" value="-63,-47"/>
+    <item time="24" type="Alpha" target="n3_tuwz" value="0"/>
+    <item time="24" type="Rotation" target="n3_tuwz" value="4"/>
+    <item time="24" type="XY" target="n3_tuwz" value="-29,-57"/>
+    <item time="27" type="Alpha" target="n2_tuwz" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="29" type="Alpha" target="n3_tuwz" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="29" type="Rotation" target="n3_tuwz" tween="true" startValue="4" endValue="80" duration="19"/>
+    <item time="36" type="Alpha" target="n3_tuwz" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="168" type="Alpha" target="n2_tuwz" value="0"/>
+  </transition>
+</component>

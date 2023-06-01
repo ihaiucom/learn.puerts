@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,70" opaque="false" initName="comTopBar" designImageAlpha="100">
+  <controller name="helpBtnCtrl" exported="true" pages="0,show,1,hide" selected="0"/>
+  <controller name="ctrlFrozen" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <image id="n9_lygx" name="n9" src="icfzcu4cfv" fileName="A通用组件/通用按钮/返回资源栏/返回_0004_返回BG.png" pkg="pv2o4pb9" xy="-183,0" size="1410,70" group="n8_h92b"/>
+    <component id="n3_dogm" name="helpBtn" src="cd2iu4c3w" fileName="button/ButtonHelp.xml" xy="167,35" pivot="0,0.5" anchor="true" group="n15_kkib">
+      <gearDisplay controller="helpBtnCtrl" pages="0"/>
+      <relation target="n6_h3w9" sidePair="left-right"/>
+    </component>
+    <component id="n13_j3oi" name="btnMail" src="j3oi1rdfitu" fileName="topbar/TopbarMenuButton.xml" xy="217,0" group="n15_kkib">
+      <Button icon="ui://pv2o4pb9kkib1rdfitu"/>
+    </component>
+    <component id="n14_j3oi" name="btnChat" src="j3oi1rdfitu" fileName="topbar/TopbarMenuButton.xml" xy="277,0" group="n15_kkib">
+      <Button icon="ui://pv2o4pb9kkib1rdfitt"/>
+    </component>
+    <list id="n4_dogm" name="list" xy="337,11" size="853,48" group="n15_kkib" layout="row" colGap="19" defaultItem="ui://pvdu3cm7dogm12" autoItemSize="false" autoClearItems="true" scrollItemToViewOnClick="false" foldInvisibleItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n15_kkib" name="n15" xy="167,0" size="1023,60" group="n8_h92b" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="n6_h3w9" sidePair="left-right"/>
+    </group>
+    <component id="n5_qrts" name="backBtn" src="dogmu" fileName="button/ButtonBack.xml" xy="32,6" size="58,58" group="n8_h92b">
+      <Button sound=""/>
+    </component>
+    <text id="n6_h3w9" name="title" xy="99,14" pivot="0,0.5" size="64,42" group="n8_h92b" fontSize="30" color="#fedb97" leading="0" bold="true" text="行囊"/>
+    <group id="n8_h92b" name="n8" xy="-183,0" size="1410,70" group="n7_ijvn"/>
+    <image id="n10_xw8v" name="n10" src="xw8v1rdfits" fileName="A通用组件/通用按钮/返回资源栏/IOS退款_小提示.png" pkg="pv2o4pb9" xy="1114,22" size="215,28" group="n12_xw8v">
+      <gearDisplay controller="ctrlFrozen" pages="1"/>
+    </image>
+    <text id="n11_xw8v" name="n11" xy="1144,22" size="184,26" group="n12_xw8v" fontSize="18" color="#ff4142" text="该账号处于冻结状态！">
+      <gearDisplay controller="ctrlFrozen" pages="1"/>
+    </text>
+    <group id="n12_xw8v" name="n12" xy="1114,22" size="215,28" group="n7_ijvn"/>
+    <group id="n7_ijvn" name="_group" xy="-183,0" size="1512,70" advanced="true"/>
+  </displayList>
+  <transition name="fxOnShow">
+    <item time="0" type="Alpha" target="n7_ijvn" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="0" type="XY" target="n7_ijvn" tween="true" startValue="-,-87" endValue="-,0" duration="6"/>
+    <item time="3" type="Alpha" target="n7_ijvn" tween="true" startValue="1" endValue="1" duration="3"/>
+  </transition>
+  <customProperty target="title" propertyId="0" label="名称"/>
+  <customProperty target="backBtn._iconBack" propertyId="1" label="返回图标"/>
+</component>

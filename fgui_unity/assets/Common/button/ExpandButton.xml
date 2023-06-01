@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,52" extention="Button">
+  <controller name="button" pages="0,up,1,down,10,over,11,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n6_x8lh" name="n6" src="icfzcu4cen" fileName="button/通用_下拉箭头.png" pkg="pv2o4pb9" xy="27,26" pivot="0.5,0.5" anchor="true" rotation="180">
+      <gearLook controller="button" pages="0,10" values="1,0,0,0|1,0,0,0" default="1,180,0,0"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

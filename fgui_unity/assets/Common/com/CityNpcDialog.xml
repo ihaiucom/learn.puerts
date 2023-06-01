@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="232,107" pivot="0,1" opaque="false">
+  <controller name="ctrlOnRight" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n3_lqpd" name="n3" src="jfracu4chs" fileName="com/对话框三角.png" pkg="pv2o4pb9" xy="105,86">
+      <gearDisplay controller="ctrlOnRight" pages="0"/>
+      <relation target="n2_lqpd" sidePair="center-center,top-bottom"/>
+    </image>
+    <image id="n2_lqpd" name="imgBg" src="jfracu4chr" fileName="com/对话框.png" pkg="pv2o4pb9" xy="0,-27" pivot="0.5,0" size="232,114" restrictSize="0,0,60,0">
+      <relation target="n1_mecx" sidePair="height-height"/>
+    </image>
+    <text id="n1_mecx" name="title" xy="14,-12" size="204,83" fontSize="20" color="#fedb97" align="center" vAlign="bottom" autoSize="height" autoClearText="true" text="知道知道知道知知道知道知道知道知道知知道知道"/>
+    <image id="n4_nn4u" name="n4" src="jfracu4chs" fileName="com/对话框三角.png" pkg="pv2o4pb9" xy="0,21" rotation="90">
+      <gearDisplay controller="ctrlOnRight" pages="1"/>
+      <relation target="n2_lqpd" sidePair="middle-middle"/>
+    </image>
+  </displayList>
+  <relation target="n2_lqpd" sidePair="bottomext-bottom"/>
+</component>

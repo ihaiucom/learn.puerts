@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="550,70" pivot="0.5,0.5" extention="Button" designImageOffsetX="-364" designImageOffsetY="-243" designImageAlpha="0">
+  <controller name="State" exported="true" pages="0,维护,1,流畅,2,拥挤,3,火爆" selected="0"/>
+  <displayList>
+    <image id="n18_gptc" name="n18" src="l6ctuoc95" fileName="frame/弹出_小提示BG.png" pkg="pv2o4pb9" xy="0,0" size="550,70"/>
+    <image id="n5_je28" name="imgNew" src="hu2n8" fileName="登录_0003_新区.png" pkg="ia0cmrp4" xy="411,1" visible="false"/>
+    <loader id="n4_je28" name="n4" xy="204,35" pivot="0.5,0.5" anchor="true" size="14,14" group="n19_hu2n" url="ui://ia0cmrp4hu2n7" autoSize="true">
+      <gearIcon controller="State" pages="0,1,2,3" values="ui://ia0cmrp4hu2n7|ui://ia0cmrp4hu2n6|ui://ia0cmrp4hu2n5|ui://ia0cmrp4hu2n4"/>
+      <relation target="n2_lm61" sidePair="right-left"/>
+    </loader>
+    <text id="n2_lm61" name="labServer" xy="287,19" pivot="0.5,0" anchor="true" size="136,32" group="n19_hu2n" fontSize="22" color="#fedb97" leading="0" singleLine="true" text="5区 火烧赤壁">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n19_hu2n" name="n19" xy="197,19" size="158,32"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrlType" exported="true" pages="0,questionIcon,1,exclamationIcon,2,exclamationDark,3,questionIconRound" selected="3"/>
+  <displayList>
+    <loader id="n0_dogm" name="icon" xy="7,7" size="35,35" url="ui://pv2o4pb9m1u01rdfitv" align="center" vAlign="middle">
+      <gearIcon controller="ctrlType" pages="1,2,3" values="ui://pv2o4pb9q7dc1x|ui://pv2o4pb9t3ok1rdfitr|ui://pv2o4pb9m1u01rdfitv" default="ui://pv2o4pb9icfzcu4cfu"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

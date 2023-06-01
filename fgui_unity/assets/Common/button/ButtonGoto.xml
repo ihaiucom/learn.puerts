@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,46" extention="Button">
+  <controller name="button" pages="0,up,1,down,3,selectedOver" selected="0"/>
+  <controller name="ctrlHasReddot" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n3_iaty" name="n3" xy="0,0" size="174,46" group="n7_iaty" url="ui://pv2o4pb9iaty1fqs6kl" fill="scaleFree">
+      <relation target="n5_iaty" sidePair="rightext-right"/>
+    </loader>
+    <loader id="n4_iaty" name="n4" xy="129,12" size="29,19" group="n7_iaty" url="ui://pv2o4pb9iaty1fqs6km">
+      <relation target="n5_iaty" sidePair="left-right"/>
+    </loader>
+    <text id="n5_iaty" name="title" xy="13,9" size="112,26" group="n7_iaty" fontSize="18" color="#fedb97" align="center" text="前往装备制作"/>
+    <loader id="n8_mcm1" name="n8" xy="156,-2" size="18,19" group="n7_iaty" url="ui://pv2o4pb9slg930">
+      <gearDisplay controller="ctrlHasReddot" pages="1"/>
+    </loader>
+    <group id="n7_iaty" name="n7" xy="0,-2" size="174,48"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

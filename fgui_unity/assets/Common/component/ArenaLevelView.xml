@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="66,27" initName="comRank">
+  <controller name="ctrlType" pages="0,青铜,1,白银,2,黄金,3,铂金,4,钻石,5,宗师,6,至尊" selected="6"/>
+  <controller name="ctrlNum" pages="0,一,1,二,2,三,3,四,4,五" selected="4"/>
+  <displayList>
+    <loader id="n0_9arh" name="n0" xy="0,0" size="45,27" url="ui://6yq9xmw4khl9b" align="center" vAlign="middle">
+      <gearIcon controller="ctrlType" pages="0,1,2,3,4,5,6" values="ui://6yq9xmw4khl9l|ui://6yq9xmw4khl9k|ui://6yq9xmw4khl9j|ui://6yq9xmw4khl9s|ui://6yq9xmw4khl9t|ui://6yq9xmw4khl9p|ui://6yq9xmw4khl9b"/>
+    </loader>
+    <loader id="n2_khl9" name="n2" xy="43,3" size="22,20" url="ui://6yq9xmw4khl9h">
+      <gearDisplay controller="ctrlType" pages="0,1,2"/>
+      <gearIcon controller="ctrlNum" pages="1,2,3,4" values="ui://6yq9xmw4khl9f|ui://6yq9xmw4khl9e|ui://6yq9xmw4khl9i|ui://6yq9xmw4khl9h" default="ui://6yq9xmw4khl9g"/>
+    </loader>
+    <loader id="n3_khl9" name="n3" xy="43,3" size="22,20" url="ui://6yq9xmw4khl9q">
+      <gearDisplay controller="ctrlType" pages="3,4,5"/>
+      <gearIcon controller="ctrlNum" pages="0,1,2,3,4" values="ui://6yq9xmw4khl9o|ui://6yq9xmw4khl9n|ui://6yq9xmw4khl9m|ui://6yq9xmw4khl9r|ui://6yq9xmw4khl9q"/>
+    </loader>
+    <loader id="n4_khl9" name="n4" xy="43,3" size="22,20" url="ui://6yq9xmw4khl99">
+      <gearDisplay controller="ctrlType" pages="6"/>
+      <gearIcon controller="ctrlNum" pages="0,1,2,3,4" values="ui://6yq9xmw4khl9d|ui://6yq9xmw4khl9c|ui://6yq9xmw4khl98|ui://6yq9xmw4khl9a|ui://6yq9xmw4khl99"/>
+    </loader>
+  </displayList>
+</component>

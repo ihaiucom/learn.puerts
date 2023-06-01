@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,52" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n10_rlx9" name="_iconBg" xy="0,0" size="150,52" touchable="false" url="ui://pv2o4pb9icfzcu4cg1" fill="scaleFree"/>
+    <loader id="n8_omdl" name="icon" xy="8,6" pivot="0.5,0.5" size="50,50" scale="0.7,0.7" touchable="false" align="center" vAlign="middle" autoSize="true" clearOnPublish="true"/>
+    <text id="n7_ne0j" name="txtNum" xy="40,22" size="26,29" fontSize="20" color="#edfdff" vAlign="middle" singleLine="true" text="20">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n11_rlx9" name="title" xy="79,9" size="58,28" fontSize="24" color="#ffffff" leading="0" letterSpacing="-4" text="刷新">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

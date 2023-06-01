@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="19,19" extention="Button" designImageOffsetX="-925" designImageOffsetY="-492">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isSelect" exported="true" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <loader id="n6_j9pw" name="n6" xy="0,0" size="19,19">
+      <gearIcon controller="isSelect" pages="0,1" values="|"/>
+    </loader>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,79" extention="Button" initName="btn" designImage="ui://c4o6uw3etx0gi" designImageOffsetX="-45" designImageOffsetY="-614" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGrayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n3_k8ok" name="Bg" xy="1,0" size="79,79" url="ui://pv2o4pb9icfzcu4cg6" fill="scaleFree" shrinkOnly="true">
+      <gearLook controller="ctrlGrayed" pages="0,1" values="1,0,0,1|1,0,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n0_dogm" name="icon" xy="41,37" pivot="0.5,0.5" anchor="true" size="50,50" url="ui://wfyzfy4rk8okuoccg" align="center" vAlign="middle" fill="scale" autoSize="true">
+      <gearLook controller="ctrlGrayed" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n4_ucp1" name="imgReddot" src="slg930" fileName="reddot/小红点.png" pkg="pv2o4pb9" xy="79,0" pivot="1,0" anchor="true" visible="false"/>
+    <richtext id="n2_mrmz" name="title" xy="41,70" pivot="0.5,0.5" anchor="true" size="104,29" touchable="false" fontSize="20" color="#fedb97" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#26140c" strokeSize="2" singleLine="true" text="技能初始化">
+      <gearLook controller="ctrlGrayed" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <customProperty target="icon" propertyId="1"/>
+</component>

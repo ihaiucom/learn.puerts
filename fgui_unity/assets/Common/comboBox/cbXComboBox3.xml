@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="252,55" extention="ComboBox" designImage="ui://m2q846moq7dc2w" designImageOffsetX="-169" designImageOffsetY="-84" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrlIsShow" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <image id="n9_a5cs" name="n9" src="icfzcu4cek" fileName="A通用组件/通用其它资源/下拉框/通用_下拉框.png" pkg="pv2o4pb9" xy="0,0" size="252,55">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n4_kk26" name="title" xy="23,10" size="48,32" fontSize="22" color="#fedb97" ubb="true" singleLine="true" autoClearText="true" text="全部">
+      <relation target="" sidePair="left-left"/>
+    </richtext>
+    <image id="n7_a5cs" name="n7" src="icfzcu4cei" fileName="A通用组件/通用其它资源/下拉框/通用_下拉_下拉底.png" pkg="pv2o4pb9" xy="207,7" group="n8_a5cs"/>
+    <image id="n10_q7dc" name="n10" src="icfzcu4cen" fileName="A通用组件/通用其它资源/下拉框/通用_下拉箭头.png" pkg="pv2o4pb9" xy="212,19" pivot="0.5,0.5" group="n8_a5cs">
+      <gearLook controller="button" pages="1" values="1,180,0,0" default="1,0,0,0"/>
+      <relation target="n7_a5cs" sidePair="center-center,middle-middle"/>
+    </image>
+    <group id="n8_a5cs" name="n8" xy="207,7" size="38,38" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+  <ComboBox dropdown="ui://pvdu3cm7r7uy1f"/>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,52" extention="Button" initName="btn">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlColor" exported="true" pages="0,yellow,1,red,2,grayed" selected="1"/>
+  <displayList>
+    <loader id="n0_dogm" name="_iconBg" xy="0,0" size="150,52" url="ui://pv2o4pb9icfzcu4cg0" fill="scaleFree">
+      <gearIcon controller="ctrlColor" pages="1,2" values="ui://pv2o4pb9icfzcu4cg0|ui://pv2o4pb9icfzcu4cg2" default="ui://pv2o4pb9icfzcu4cg1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_mrmz" name="title" xy="75,26" pivot="0.5,0.5" anchor="true" size="52,34" fontSize="24" color="#fef2da" align="center" vAlign="middle" leading="0" autoClearText="true" text="确定">
+      <gearColor controller="ctrlColor" pages="0,1,2" values="#fef2da,#000000|#fef2da,#000000|#dcd4c6,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

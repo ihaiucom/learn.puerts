@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,26">
+  <displayList>
+    <text id="n0_yxei" name="txt" xy="0,0" size="86,26" fontSize="18" color="#fedb97" align="center" ubb="true" vars="true" underline="true" autoClearText="true" text="忘记密码?"/>
+  </displayList>
+  <relation target="n0_yxei" sidePair="width-width,height-height"/>
+</component>

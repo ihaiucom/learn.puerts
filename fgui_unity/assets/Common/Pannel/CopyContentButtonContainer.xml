@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" overflow="hidden">
+  <displayList>
+    <component id="n0_n2ui" name="btnCopy" src="mubt1rdfiu3" fileName="button/CopyContentButton.xml" xy="39,73" pivot="0.5,1" anchor="true"/>
+  </displayList>
+</component>

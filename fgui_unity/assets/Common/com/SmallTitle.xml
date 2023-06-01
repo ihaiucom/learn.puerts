@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="202,40" extention="Label" initName="comTitle" designImage="ui://jct4g400rp9ff" designImageOffsetX="-185" designImageOffsetY="-185" designImageAlpha="0" designImageLayer="1">
+  <controller name="hideMulti" exported="true" homePageType="specific" homePage="1" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <loader id="n3_par7" name="icon" xy="0,0" size="201,40" url="ui://pv2o4pb9icfzcu4cfd" fill="scaleFree">
+      <relation target="n1_t9j0" sidePair="rightext-right"/>
+    </loader>
+    <text id="n1_t9j0" name="title" xy="15,4" size="127,32" restrictSize="127,0,0,0" fontSize="22" color="#fef2da" vAlign="middle" leading="0" autoClearText="true" text="战斗"/>
+    <text id="n4_f1qh" name="txtMultiple" xy="112,-6" size="19,42" fontSize="30" color="#4ae156" align="right" strokeColor="#000000" strokeSize="2" text="x">
+      <gearDisplay controller="hideMulti" pages="0"/>
+    </text>
+    <text id="n5_knfy" name="txtMultipleInfo" xy="131,-3" size="19,42" fontSize="30" color="#4ae156" align="right" strokeColor="#000000" strokeSize="2" autoClearText="true" text="2">
+      <gearDisplay controller="hideMulti" pages="0"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40" mask="n4_vxwx">
+  <displayList>
+    <image id="n4_vxwx" name="n4" src="udug1rdfitq" fileName="sssc.png" xy="2,0" size="36,37" aspect="true" pkg="pv2o4pb9"/>
+    <image id="n6_vxwx" name="n6" src="e9kp13i" fileName="sao.png" pkg="uucxpfax" xy="-32,-45" pivot="0.5,0.5" size="28,125" rotation="45" blend="add" color="#ff9900"/>
+  </displayList>
+  <transition name="fxglows">
+    <item time="0" type="Scale" target="n6_vxwx" value="0.5,1"/>
+    <item time="0" type="XY" target="n6_vxwx" value="-24,-"/>
+    <item time="18" type="Scale" target="n6_vxwx" tween="true" startValue="0.5,1" endValue="2.51,1" duration="5"/>
+    <item time="18" type="XY" target="n6_vxwx" tween="true" startValue="-24,-" endValue="52,-" duration="12" ease="Quad.InOut"/>
+    <item time="23" type="Scale" target="n6_vxwx" tween="true" startValue="2.51,1" endValue="0.6,1" duration="7"/>
+    <item time="84" type="Scale" target="n6_vxwx" value="0.6,1"/>
+  </transition>
+</component>

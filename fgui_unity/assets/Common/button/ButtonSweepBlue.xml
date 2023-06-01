@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,62" extention="Button" designImage="ui://e2c56lzkmrx63" designImageOffsetX="-868" designImageOffsetY="-649" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGrayed" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_dogm" name="_iconBg" xy="0,0" size="186,62" url="ui://pv2o4pb9icfzcu4cfy" fill="scaleFree">
+      <gearIcon controller="ctrlGrayed" pages="1" values="ui://pv2o4pb9icfzcu4cfz" default="ui://pv2o4pb9icfzcu4cfy"/>
+      <relation target="" sidePair=""/>
+    </loader>
+    <text id="n3_mrmz" name="title" xy="49,30" pivot="0.5,0.5" anchor="true" size="80,42" fontSize="30" color="#fedb97" align="center" vAlign="middle" leading="0" letterSpacing="-2" autoSize="none" text="扫荡"/>
+    <loader id="n4_xmxg" name="imgMoney" xy="118,31" pivot="0.5,0.5" anchor="true" size="60,60" scale="0.4,0.4" fill="scale" shrinkOnly="true"/>
+    <text id="n5_xmxg" name="txtNum" xy="135,8" size="46,46" fontSize="24" color="#fedb97" vAlign="middle" letterSpacing="1" autoSize="none" text=""/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="34,34" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_dogm" name="_questionIcon" src="icfzcu4cfu" fileName="A通用组件/通用按钮/返回资源栏/返回_0003_帮助按钮.png" pkg="pv2o4pb9" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_ja6x" name="comBubble" src="cb61cu4cfk" fileName="BubbleBox/type/BubbleType1.xml" xy="-68,-38" size="173,39" visible="false">
+      <relation target="n0_dogm" sidePair="center-center"/>
+    </component>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <customProperty target="n1.txtContent" propertyId="0"/>
+</component>

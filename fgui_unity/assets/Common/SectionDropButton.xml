@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" extention="Button">
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <image id="n82_pmgq" name="n82" src="icfzcu4chj" fileName="A通用组件/通用物品框/通用_更多物品BG.png" pkg="pv2o4pb9" xy="0,0" size="84,84" aspect="true"/>
+    <image id="n81_pmgq" name="n81" src="icfzcu4chk" fileName="A通用组件/通用物品框/通用_更多物品点.png" pkg="pv2o4pb9" xy="20,36" group="n85_wfgp"/>
+    <image id="n83_wfgp" name="n83" src="icfzcu4chk" fileName="A通用组件/通用物品框/通用_更多物品点.png" pkg="pv2o4pb9" xy="36,36" group="n85_wfgp"/>
+    <image id="n84_wfgp" name="n84" src="icfzcu4chk" fileName="A通用组件/通用物品框/通用_更多物品点.png" pkg="pv2o4pb9" xy="52,36" group="n85_wfgp"/>
+    <group id="n85_wfgp" name="n85" xy="20,36" size="44,12"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrlReddot" exported="true" pages="0,none,1,number,2,dot" selected="0"/>
+  <controller name="ctrlShowTip" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <loader id="n17_z3ry" name="n17" xy="6,6" size="72,72" url="ui://pv2o4pb9z3ry1rdfitw"/>
+    <component id="n13_rza6" name="n13" src="gxl83" fileName="ResFx_shouyeicon_tongyongbg.xml" pkg="flgbx5j9" xy="-10,-10" pivot="0.5,0.5" scale="0.7,0.7" visible="false"/>
+    <loader id="n6_hk2l" name="icon" xy="-3,-4" pivot="0.5,0.5" size="90,90" scale="0.9,0.9" align="center" vAlign="middle" fill="scaleNoBorder" autoSize="true" clearOnPublish="true"/>
+    <component id="n7_hk2l" name="reddot" src="in2g4c2s" fileName="reddot/NumberRedDot.xml" xy="54,12">
+      <gearDisplay controller="ctrlReddot" pages="1"/>
+    </component>
+    <loader id="n8_hk2l" name="reddot1" xy="58,14" size="18,19" url="ui://pv2o4pb9slg930">
+      <gearDisplay controller="ctrlReddot" pages="2"/>
+    </loader>
+    <text id="n9_hk2l" name="title" xy="42,73" pivot="0.5,0.5" anchor="true" size="92,32" fontSize="22" color="#fff2e0" leading="0" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" text="装备强化"/>
+    <component id="n14_rza6" name="n14" src="gxl80" fileName="ResFx_shouyeicon_tongyong.xml" pkg="flgbx5j9" xy="-8,-8" visible="false"/>
+    <component id="n13_myon" name="comBubble" src="myon1rdfit8" fileName="BubbleBox/type/BubbleType2.xml" xy="18,94" visible="false" touchable="false" controller="ctrlDirection,1">
+      <gearXY controller="ctrlShowTip" pages="0,1" values="18,94|19,117"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <richtext id="n15_ovrk" name="txtTip" xy="41,97" pivot="0.5,0.5" anchor="true" size="112,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" ubb="true" bold="true" strokeColor="#000000" strokeSize="2" singleLine="true" autoClearText="true" text="挂机奖励已满">
+      <gearDisplay controller="ctrlShowTip" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <transition name="fxXueRen" autoPlayRepeat="-1">
+    <item time="0" type="Pivot" target="n6_hk2l" value="0.5,0.77"/>
+    <item time="0" type="Rotation" target="n6_hk2l" tween="true" startValue="0" endValue="-5" duration="4" ease="Quad.InOut"/>
+    <item time="0" type="Visible" target="n13_rza6" value="true"/>
+    <item time="0" type="Visible" target="n14_rza6" value="true"/>
+    <item time="4" type="Rotation" target="n6_hk2l" tween="true" startValue="-5" endValue="5" duration="4" ease="Quad.InOut"/>
+    <item time="8" type="Rotation" target="n6_hk2l" tween="true" startValue="5" endValue="0" duration="4"/>
+    <item time="84" type="Rotation" target="n6_hk2l" value="0"/>
+  </transition>
+  <transition name="fxShouChong" autoPlayRepeat="-1">
+    <item time="0" type="Pivot" target="n6_hk2l" value="0.5,0.8"/>
+    <item time="0" type="Scale" target="n6_hk2l" tween="true" startValue="0.9,0.9" endValue="0.95,0.95" duration="4"/>
+    <item time="0" type="Visible" target="n13_rza6" value="true"/>
+    <item time="0" type="Visible" target="n14_rza6" value="true"/>
+    <item time="0" type="XY" target="n6_hk2l" tween="true" startValue="-,-3" endValue="-,-6" duration="4"/>
+    <item time="4" type="Scale" target="n6_hk2l" tween="true" startValue="0.95,0.95" endValue="0.9,0.9" duration="2"/>
+    <item time="4" type="XY" target="n6_hk2l" tween="true" startValue="-,-6" endValue="-,-2" duration="3" ease="Back.Out"/>
+    <item time="7" type="XY" target="n6_hk2l" tween="true" startValue="-,-2" endValue="-,-3" duration="2"/>
+    <item time="81" type="XY" target="n6_hk2l" value="-3,-3"/>
+  </transition>
+  <transition name="fxZhengBaoGe" autoPlayRepeat="-1">
+    <item time="0" type="Pivot" target="n6_hk2l" value="0.5,0.82"/>
+    <item time="0" type="Scale" target="n6_hk2l" tween="true" startValue="0.9,0.9" endValue="0.8,0.65" duration="3"/>
+    <item time="0" type="Visible" target="n13_rza6" value="true"/>
+    <item time="0" type="Visible" target="n14_rza6" value="true"/>
+    <item time="3" type="Scale" target="n6_hk2l" tween="true" startValue="0.8,0.65" endValue="0.9,0.9" duration="6" ease="Back.Out"/>
+    <item time="81" type="Scale" target="n6_hk2l" value="0.9,0.9"/>
+  </transition>
+  <customProperty target="bg" propertyId="1"/>
+</component>

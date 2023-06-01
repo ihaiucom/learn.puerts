@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="246,32" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n3_j9pw" name="n3" xy="0,0" size="244,29" fontSize="20" color="#43cb4f" vAlign="middle" singleLine="true" text="《欢乐互娱用户隐私协议》"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

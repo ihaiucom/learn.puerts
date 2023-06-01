@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,56" extention="Button" designImage="ui://jtirqx1mb7wpuoca3" designImageOffsetX="-480" designImageOffsetY="-161" designImageAlpha="100">
+  <controller name="ctrlSelected" exported="true" pages="0,false,1,true" selected="0"/>
+  <controller name="ctrlReddot" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <image id="n0_b7wp" name="n0" src="v3tlp" fileName="组队_申请列表_推荐选中.png" pkg="pv2o4pb9" xy="-3,17" size="218,42">
+      <gearDisplay controller="ctrlSelected" pages="1"/>
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n1_b7wp" name="title" xy="105,28" pivot="0.5,0.5" anchor="true" size="169,32" fontSize="22" color="#a2705a" align="center" vAlign="middle" singleLine="true" text="秘境 * 陷阵要塞">
+      <gearColor controller="ctrlSelected" pages="0,1" values="#a2705a,#000000|#fef2da,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n2_ny82" name="n2" src="slg930" fileName="reddot/小红点.png" pkg="pv2o4pb9" xy="194,0">
+      <gearDisplay controller="ctrlReddot" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

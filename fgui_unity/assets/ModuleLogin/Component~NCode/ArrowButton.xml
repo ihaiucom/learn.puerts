@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="54,84" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n3_5j2m" name="_Arrow" src="q3tj31" fileName="new_ui/选角_箭头.png" pkg="hhxzm14s" xy="0,0">
+      <gearDisplay controller="button" pages=""/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

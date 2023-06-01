@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1700,750" extention="Label" initName="comScreenBG">
+  <controller name="size" pages="0,,1," selected="0"/>
+  <controller name="showMask" exported="true" homePageType="specific" homePage="0" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_5sas" name="icon" xy="850,375" pivot="0.5,0.5" anchor="true" size="1700,750" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n1_tqpo" name="n1" src="icfzcu4chl" fileName="A通用组件/通用背景/通用_背景20%遮罩.png" pkg="pv2o4pb9" xy="850,375" pivot="0.5,0.5" anchor="true" size="1700,750" scale="2,2">
+      <gearDisplay controller="showMask" pages="1"/>
+      <relation target="n0_5sas" sidePair="width-width%,height-height%"/>
+    </image>
+  </displayList>
+</component>

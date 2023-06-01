@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,10" extention="ProgressBar">
+  <displayList>
+    <image id="n0_j4yz" name="_bg" src="930q2i" fileName="tips/装备品级进度_BG.png" pkg="pv2o4pb9" xy="0,0" size="160,10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_j4yz" name="bar" src="930q2h" fileName="tips/装备品级进度.png" pkg="pv2o4pb9" xy="1,1" size="158,8"/>
+  </displayList>
+  <ProgressBar/>
+</component>

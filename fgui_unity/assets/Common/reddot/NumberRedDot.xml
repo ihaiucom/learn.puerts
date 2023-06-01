@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="31,31" initName="comReddot">
+  <displayList>
+    <image id="n0_in2g" name="n0" src="slg92z" fileName="reddot/右侧大按钮-红点.png" pkg="pv2o4pb9" xy="-2,-3"/>
+    <text id="n1_in2g" name="txtNum" xy="16,14" pivot="0.5,0.5" anchor="true" size="32,24" fontSize="16" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="1"/>
+  </displayList>
+</component>

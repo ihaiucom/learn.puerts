@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,40" pivot="0.5,0.5" extention="Button" designImage="ui://ujlfeni7gptc18" designImageOffsetX="-364" designImageOffsetY="-243" designImageAlpha="0">
+  <controller name="State" exported="true" pages="0,维护,1,流畅,2,拥挤,3,火爆" selected="3"/>
+  <displayList>
+    <loader id="n20_hu2n" name="n20" xy="100,13" size="14,14" url="ui://ia0cmrp4hu2n4" autoSize="true">
+      <gearIcon controller="State" pages="0,1,2,3" values="ui://ia0cmrp4hu2n7|ui://ia0cmrp4hu2n6|ui://ia0cmrp4hu2n5|ui://ia0cmrp4hu2n4"/>
+    </loader>
+    <text id="n19_hu2n" name="n19" xy="126,4" size="48,32" fontSize="22" color="#ff4142" text="火爆">
+      <gearColor controller="State" pages="0,1,2,3" values="#a5afb7,#000000|#4ae156,#000000|#ffc554,#000000|#ff4142,#000000"/>
+      <gearText controller="State" pages="0,1,2,3" values="维护|流畅|拥挤|火爆"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlColor" exported="true" pages="0,yellow,1,red,4,grayed" selected="1"/>
+  <controller name="ctrlReddot" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_dogm" name="_iconBg" xy="0,0" size="110,40" url="ui://pv2o4pb9icfzcu4cfx" fill="scaleFree">
+      <gearLook controller="ctrlColor" pages="1,4" values="1,0,0,1|1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="ctrlColor" pages="0,4" values="ui://pv2o4pb9icfzcu4cfy|ui://pv2o4pb9icfzcu4cfz" default="ui://pv2o4pb9icfzcu4cfx"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n3_ih8m" name="n3" src="slg930" fileName="reddot/小红点.png" pkg="pv2o4pb9" xy="96,0">
+      <gearDisplay controller="ctrlReddot" pages="1"/>
+    </image>
+    <text id="n2_mrmz" name="title" xy="55,19" pivot="0.5,0.5" anchor="true" size="44,29" fontSize="20" color="#fef2da" align="center" vAlign="middle" leading="0" text="确定">
+      <gearColor controller="ctrlColor" pages="0,1,4" values="#fef2da,#000000|#fef2da,#000000|#dcd4c6,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

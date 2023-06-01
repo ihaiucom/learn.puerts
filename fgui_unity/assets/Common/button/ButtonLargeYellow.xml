@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,62" extention="Button" designImage="ui://pvdu3cm7dw6fcu4cfl" designImageOffsetX="-3334" designImageOffsetY="-1682" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGrayed" exported="true" pages="0,,1," selected="0"/>
+  <controller name="ctrlColor" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_dogm" name="_iconBg" xy="0,0" size="186,62" url="ui://pv2o4pb9icfzcu4cg3" fill="scaleFree">
+      <gearLook controller="ctrlGrayed" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="ctrlColor" pages="0" values="ui://pv2o4pb9icfzcu4cg3" default="ui://pv2o4pb9icfzcu4cg4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_mrmz" name="title" xy="93,31" pivot="0.5,0.5" anchor="true" size="56,36" fontSize="26" color="#fef2da" align="center" vAlign="middle" leading="0" text="确定">
+      <gearColor controller="ctrlGrayed" pages="0,1" values="#fef2da,#000000|#dcd4c6,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

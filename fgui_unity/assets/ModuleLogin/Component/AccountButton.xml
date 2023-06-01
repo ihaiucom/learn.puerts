@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,50" extention="Button" bgColor="#d0c0a7">
+  <displayList>
+    <image id="n5_gptc" name="n5" src="icfzcu4ceu" fileName="input/创角_输入框BG.png" pkg="pv2o4pb9" xy="0,0" size="500,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_xy38" name="title" xy="0,0" size="500,50" fontSize="22" color="#fedb97" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入账号" maxLength="12" restrict="a-zA-Z0-9\u0021-\u007e">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="24,30" pivot="0.5,0.5" anchor="true" initName="comBubble">
+  <controller name="ctrlDirection" exported="true" pages="0,down,1,up,2,none" selected="0"/>
+  <displayList>
+    <image id="n0_myon" name="n0" src="myoncu4chu" fileName="A通用组件/通用其它资源/通用_冒泡框2.png" pkg="pv2o4pb9" xy="0,0" size="24,31">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_myon" name="n1" src="myoncu4chv" fileName="A通用组件/通用其它资源/通用_冒泡小箭头2.png" pkg="pv2o4pb9" xy="6,28">
+      <gearDisplay controller="ctrlDirection" pages="0,1"/>
+      <gearXY controller="ctrlDirection" pages="0,1" values="6,28|6,3" default="5,28"/>
+      <gearSize controller="ctrlDirection" pages="1" values="12,9,1,-1" default="12,9,1,1"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n2_myon" name="txtContent" xy="12,16" pivot="0.5,0.5" anchor="true" size="10,32" fontSize="22" color="#ffffff" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <relation target="n2_myon" sidePair="width-width"/>
+  <customProperty target="txtContent" propertyId="0"/>
+</component>

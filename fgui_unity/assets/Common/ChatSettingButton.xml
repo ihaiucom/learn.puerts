@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,26" extention="Button">
+  <controller name="selected" pages="0,,1," selected="0"/>
+  <displayList>
+    <text id="n8_oj99" name="title" xy="30,-5" size="44,29" fontSize="20" color="#fedb97" text="每日"/>
+    <component id="n7_oj99" name="btnSetting" src="j1a2w7" fileName="BattleSettingSelectButton.xml" xy="0,0" size="80,26">
+      <relation target="n8_oj99" sidePair="rightext-right"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

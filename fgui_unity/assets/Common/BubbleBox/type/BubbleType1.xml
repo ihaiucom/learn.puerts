@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,39" designImage="ui://c4o6uw3etx0gi" designImageOffsetX="-9" designImageOffsetY="-474" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlDirection" exported="true" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n53_imvr" name="n53" src="icfzcu4ced" fileName="A通用组件/通用其它资源/通用_冒泡1.png" pkg="pv2o4pb9" xy="71,30">
+      <gearDisplay controller="ctrlDirection" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n52_imvr" name="n52" src="icfzcu4cee" fileName="A通用组件/通用其它资源/通用_冒泡2.png" pkg="pv2o4pb9" xy="0,0" size="154,31">
+      <relation target="n51_rsr8" sidePair="width-width,left-left"/>
+    </image>
+    <text id="n51_rsr8" name="txtContent" xy="12,3" size="130,26" fontSize="18" color="#FEF2DA" autoClearText="true" text="可进行自动加点"/>
+    <image id="n54_o1sk" name="n54" src="icfzcu4ced" fileName="A通用组件/通用其它资源/通用_冒泡1.png" pkg="pv2o4pb9" xy="71,-6" flip="vt">
+      <gearDisplay controller="ctrlDirection" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+  </displayList>
+  <relation target="n51_rsr8" sidePair="rightext-right,bottomext-bottom"/>
+  <customProperty target="txtContent" propertyId="0"/>
+</component>

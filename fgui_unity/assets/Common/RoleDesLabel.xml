@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="284,32" extention="Label">
+  <displayList>
+    <text id="n0_n54s" name="title" xy="0,0" size="92,32" fontSize="22" color="#917753" align="center" vAlign="middle" singleLine="true" text="操作难度">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <list id="n3_n54s" name="list" xy="101,0" size="181,32" layout="row" overflow="hidden" colGap="5" defaultItem="ui://pv2o4pb9n54suz8v" autoItemSize="false" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <customProperty target="title" propertyId="0"/>
+</component>

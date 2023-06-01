@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="224,108" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_gv8h" name="n0" src="djta5" fileName="未标题-8_0001_邀请好友-.png" pkg="pv2o4pb9" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_gv8h" name="title" xy="77,51" pivot="0.5,0.5" anchor="true" size="100,34" fontSize="24" color="#fedb97" leading="0" text="邀请好友">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

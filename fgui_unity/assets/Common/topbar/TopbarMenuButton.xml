@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrlReddot" pages="0,none,1,num,2,dot" selected="2"/>
+  <displayList>
+    <loader id="n2_kkib" name="icon" xy="30,34" pivot="0.5,0.5" anchor="true" size="36,32" url="ui://pv2o4pb9kkib1rdfitu" autoSize="true"/>
+    <component id="n3_kkib" name="comReddot" src="in2g4c2s" fileName="reddot/NumberRedDot.xml" xy="31,7">
+      <gearDisplay controller="ctrlReddot" pages="1"/>
+    </component>
+    <image id="n4_kkib" name="n4" src="slg930" fileName="reddot/小红点.png" pkg="pv2o4pb9" xy="38,12">
+      <gearDisplay controller="ctrlReddot" pages="2"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

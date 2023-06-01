@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,79" pivot="0.5,0.5" extention="Button" designImageOffsetX="-275" designImageOffsetY="-667" designImageAlpha="0">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1_gptc" name="n1" src="icfzcu4cg6" fileName="A通用组件/通用按钮/通用按钮/通用_一级界面按钮bg.png" pkg="pv2o4pb9" xy="0,0"/>
+    <loader id="n0_vt5q" name="icon" xy="39,39" pivot="0.5,0.5" anchor="true" size="44,51" autoSize="true" clearOnPublish="true"/>
+    <text id="n4_iwvt" name="txtTitle" xy="-3,57" pivot="0.5,0.5" size="86,29" fontSize="20" color="#fedb97" autoSize="none" bold="true" strokeColor="#1b0c05" strokeSize="2" singleLine="true" text="退出登录"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <customProperty target="txtTitle" propertyId="0"/>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="950,513" initName="_comFrameBg">
+  <displayList>
+    <image id="n13_mrmz" name="n13" src="icfzcu4cff" fileName="new_ui/frame/大弹出_BG.png" pkg="pv2o4pb9" xy="0,0" size="950,513">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

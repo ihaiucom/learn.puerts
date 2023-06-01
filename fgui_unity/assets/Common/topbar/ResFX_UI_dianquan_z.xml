@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="45,45" mask="n2_vxwx">
+  <displayList>
+    <graph id="n2_vxwx" name="n2" xy="13,-17" size="26,61" alpha="0.368" type="polygon" lineColor="#fcffffff" points="1,21,26,21,18,61,-8,55"/>
+    <image id="n3_vxwx" name="n3" src="e9kp13i" fileName="sao.png" pkg="uucxpfax" xy="-43,-43" pivot="0.5,0.5" size="28,125" rotation="45" blend="add" color="#ff9900"/>
+  </displayList>
+  <transition name="fxmove">
+    <item time="0" type="Scale" target="n3_vxwx" value="0.5,1"/>
+    <item time="0" type="XY" target="n3_vxwx" value="-35,-"/>
+    <item time="18" type="Scale" target="n3_vxwx" tween="true" startValue="0.5,1" endValue="2.51,1" duration="5"/>
+    <item time="18" type="XY" target="n3_vxwx" tween="true" startValue="-28,-" endValue="53,-" duration="12" ease="Quad.InOut"/>
+    <item time="23" type="Scale" target="n3_vxwx" tween="true" startValue="2.51,1" endValue="0.6,1" duration="7"/>
+    <item time="84" type="Scale" target="n3_vxwx" value="0.6,1"/>
+  </transition>
+</component>

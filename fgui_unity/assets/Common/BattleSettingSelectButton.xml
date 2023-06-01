@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,26" extention="Button">
+  <controller name="selected" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n5_j1a2" name="n5" src="10gjwd" fileName="设置_选项底图.png" pkg="pv2o4pb9" xy="0,0"/>
+    <image id="n4_j1a2" name="n4" src="10gjwe" fileName="设置_选中.png" pkg="pv2o4pb9" xy="0,0">
+      <gearDisplay controller="selected" pages="1"/>
+    </image>
+    <image id="n6_jats" name="n6" src="jatswi" fileName="设置-全屏-操作-底框.png" pkg="pv2o4pb9" xy="14,0" size="68,26">
+      <relation target="" sidePair="rightext-right"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

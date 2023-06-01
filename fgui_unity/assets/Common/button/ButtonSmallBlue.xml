@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,40" extention="Button" designImage="ui://pvdu3cm7dw6fcu4cfl" designImageOffsetX="-3824" designImageOffsetY="-1683" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGrayed" exported="true" pages="0,,1," selected="0"/>
+  <controller name="ctrlReddot" exported="true" pages="0,,1," selected="0"/>
+  <controller name="isCountdown" homePageType="specific" homePage="0" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_dogm" name="_iconBg" xy="0,0" size="110,40" url="ui://pv2o4pb9icfzcu4cfy" fill="scaleFree">
+      <gearIcon controller="ctrlGrayed" pages="1" values="ui://pv2o4pb9icfzcu4cfz" default="ui://pv2o4pb9icfzcu4cfy"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n4_ih8m" name="n4" src="slg930" fileName="reddot/小红点.png" pkg="pv2o4pb9" xy="96,0">
+      <gearDisplay controller="ctrlReddot" pages="1"/>
+    </image>
+    <text id="n3_mrmz" name="title" xy="55,18" pivot="0.5,0.5" anchor="true" size="44,29" fontSize="20" color="#fef2da" align="center" vAlign="middle" leading="0" text="锤炼">
+      <gearDisplay controller="isCountdown" pages="0"/>
+      <gearColor controller="ctrlGrayed" pages="0,1" values="#fef2da,#000000|#dcd4c6,#000000"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_meh2" name="CountdownTitle" xy="33,5" size="44,29" font="simhei" fontSize="20" color="#fedb97" align="center" vAlign="middle" leading="0" text="确定">
+      <gearDisplay controller="isCountdown" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

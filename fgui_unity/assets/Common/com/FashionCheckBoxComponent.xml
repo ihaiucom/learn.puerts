@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="392,44" designImageOffsetX="-466" designImageOffsetY="-102" designImageAlpha="0">
+  <controller name="isSelectLeftOrRight" pages="0,left,1,right" selected="1"/>
+  <displayList>
+    <image id="n27_t5ri" name="n27" src="dogm11" fileName="button/通用横页签_BG.png" pkg="pv2o4pb9" xy="0,0" size="392,44">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n24_nulz" name="btnLeft" src="cssccu4cdk" fileName="checkbox/FashionCheckBox.xml" xy="0,0">
+      <Button controller="isSelectLeftOrRight" page="0"/>
+    </component>
+    <component id="n25_nulz" name="btnRight" src="cssccu4cdk" fileName="checkbox/FashionCheckBox.xml" xy="196,0">
+      <Button checked="true" controller="isSelectLeftOrRight" page="1"/>
+    </component>
+  </displayList>
+  <transition name="fx_animation"/>
+</component>

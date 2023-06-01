@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,48" extention="Button">
+  <controller name="button" pages="1,up,0,down" selected="0"/>
+  <displayList>
+    <image id="n0_c7l7" name="_iconArrow" src="zqvluocab" fileName="行囊_信息箭头.png" pkg="pv2o4pb9" xy="25,18" pivot="0.5,0.5" anchor="true" size="26,24" group="n3_a2rg" rotation="180">
+      <gearXY controller="button" pages="1,0" values="25,18|24,22"/>
+      <gearLook controller="button" pages="0" values="1,0,0,1" default="1,180,0,1"/>
+    </image>
+    <group id="n3_a2rg" name="n3" xy="12,6" size="26,24"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>

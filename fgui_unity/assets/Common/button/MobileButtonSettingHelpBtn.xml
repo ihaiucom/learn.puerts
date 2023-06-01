@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="37,37" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_edpl" name="n3" src="edpl4" fileName="zdsz_0003_问号.png" pkg="pv2o4pb9" xy="0,0"/>
+  </displayList>
+  <Button/>
+</component>

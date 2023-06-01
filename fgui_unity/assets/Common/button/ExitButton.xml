@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="137,44" opaque="false" extention="Button" designImageOffsetX="-11" designImageOffsetY="-164">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrlExtend" exported="true" pages="0,yes,1,no" selected="0"/>
+  <displayList>
+    <graph id="n8_sa77" name="n0" xy="0,0" size="137,44" alpha="0" type="rect">
+      <gearDisplay controller="ctrlExtend" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n5_ado1" name="n5" xy="0,0" size="44,44" url="ui://pv2o4pb9eyildc" fill="scaleFree"/>
+    <image id="n3_ado1" name="n3" src="ado1wuoca9" fileName="button/武道会_退出icon.png" pkg="pv2o4pb9" xy="12,14"/>
+    <image id="n4_ado1" name="n4" src="ado1wuocaa" fileName="button/武道会_退出底图.png" pkg="pv2o4pb9" xy="29,22" pivot="0,1" anchor="true" size="108,19">
+      <gearDisplay controller="ctrlExtend" pages="0"/>
+      <relation target="" sidePair="bottom-middle,rightext-right"/>
+    </image>
+    <image id="n6_ado1" name="n6" src="ado1wuocaa" fileName="button/武道会_退出底图.png" pkg="pv2o4pb9" xy="29,41" size="108,19" scale="1,-1">
+      <gearDisplay controller="ctrlExtend" pages="0"/>
+      <relation target="" sidePair="top-middle,rightext-right"/>
+    </image>
+    <text id="n7_ado1" name="title" xy="57,6" size="44,29" fontSize="20" color="#fef2da" singleLine="true" text="退出">
+      <gearDisplay controller="ctrlExtend" pages="0"/>
+    </text>
+  </displayList>
+  <Button/>
+  <relation target="n7_ado1" sidePair="rightext-right"/>
+</component>

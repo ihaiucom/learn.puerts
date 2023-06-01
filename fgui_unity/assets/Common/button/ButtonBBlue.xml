@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,69" restrictSize="0,0,0,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGrayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_dogm" name="_iconBg" src="g17ycu4chm" fileName="new_ui/button/登录_0008_特红.png" pkg="pv2o4pb9" xy="0,0" size="225,70">
+      <gearLook controller="ctrlGrayed" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n2_mrmz" name="title" xy="112,34" pivot="0.5,0.5" anchor="true" size="56,36" fontSize="26" color="#fedb97" align="center" vAlign="middle" leading="0" bold="true" text="确定">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,62" extention="Button">
+  <controller name="button" pages="0,up,1,down,10,disabled,11,selectedDisabled" selected="0"/>
+  <controller name="ctrlGray" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <loader id="n0_dogm" name="_iconBg" xy="0,0" size="220,62" grayed="true" url="ui://pv2o4pb9tqfd1rdfiu0" fill="scaleFree">
+      <gearLook controller="ctrlGray" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2_mrmz" name="iconTitle" xy="110,32" pivot="0.5,0.5" anchor="true" size="160,36" grayed="true" align="center" autoSize="true" color="#fedb97">
+      <gearLook controller="ctrlGray" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n3_ixea" name="iconRedDot" xy="201,1" size="18,19" visible="false" url="ui://pv2o4pb9slg930"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <relation target="n2_mrmz" sidePair="rightext-right"/>
+  <customProperty target="iconTitle" propertyId="1"/>
+</component>

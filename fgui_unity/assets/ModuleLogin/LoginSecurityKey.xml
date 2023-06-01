@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,406" designImage="ui://4698ugpkdvvm4v" designImageOffsetX="-337" designImageOffsetY="-172" designImageAlpha="63">
+  <displayList>
+    <component id="n23_hu2n" name="comFrame" src="mrmzu4c4a" fileName="SmallFrame.xml" pkg="7hlhkjnw" xy="0,-2" controller="typeCtrl,0,ButtonCountCtrl,2,hideCloseCtrl,1">
+      <Label title="快捷登录"/>
+      <property target="btn1.title" propertyId="0" value="取消"/>
+      <property target="btn2.title" propertyId="0" value="登录"/>
+    </component>
+    <component id="n25_hu2n" name="_comFrameBg" src="nzo0cu4cfq" fileName="frame/_SmallFrameContentBg.xml" pkg="pvdu3cm7" xy="10,70" size="644,222"/>
+    <image id="n21_d5qo" name="n0" src="icfzcu4ceu" fileName="A通用组件/通用其它资源/输入框/输入框402f24-100%.png" pkg="pv2o4pb9" xy="43,146" size="577,40">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n22_d5qo" name="itxtKey" xy="43,146" size="577,40" fontSize="24" color="#fedb97" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="请输入数字账号" maxLength="99" password="true"/>
+    <text id="n26_dvvm" name="n26" xy="50,238" pivot="0.5,0.5" size="564,26" fontSize="18" color="#aa9996" align="center" vAlign="middle" letterSpacing="1" singleLine="true" text="可使用数字账号快速登录，数字账号可在【设置-安全设置】中获取"/>
+  </displayList>
+</component>

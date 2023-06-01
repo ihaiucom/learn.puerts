@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,16" extention="ProgressBar">
+  <displayList>
+    <loader id="n0_xngv" name="n0" xy="0,0" size="50,16" url="ui://pv2o4pb9aookj" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_xngv" name="bar" xy="0,0" size="50,16" url="ui://pv2o4pb9aooki" fill="scaleFree">
+      <relation target="" sidePair="height-height"/>
+    </loader>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+  <customProperty target="n0" propertyId="1"/>
+  <customProperty target="bar" propertyId="1"/>
+</component>

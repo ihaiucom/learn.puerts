@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ia0cmrp4">
+  <resources>
+    <image id="g17y0" name="登录_0009_客服.png" path="/" exported="true"/>
+    <image id="g17y1" name="登录_0010_扫码.png" path="/" exported="true"/>
+    <image id="g17y2" name="登录_0011_公告.png" path="/" exported="true"/>
+    <image id="hu2n3" name="登录_退出登录.png" path="/" exported="true"/>
+    <image id="hu2n4" name="登录_0004_火爆.png" path="/" exported="true"/>
+    <image id="hu2n5" name="登录_0005_拥挤.png" path="/" exported="true"/>
+    <image id="hu2n6" name="登录_0006_流畅.png" path="/" exported="true"/>
+    <image id="hu2n7" name="登录_0007_维护.png" path="/" exported="true"/>
+    <image id="hu2n8" name="登录_0003_新区.png" path="/" exported="true"/>
+    <image id="qkni3d" name="Lark20210811-111623.jpg" path="/" exported="true"/>
+    <image id="dxgk3e" name="logo.png" path="/" exported="true" qualityOption="custom" quality="30" atlas="1"/>
+    <image id="dvvm3f" name="登录_ 直播托管.png" path="/" exported="true"/>
+    <image id="c3l93g" name="logo_syjx.png" path="/" exported="true"/>
+    <image id="c3l93h" name="logo_dhact.png" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

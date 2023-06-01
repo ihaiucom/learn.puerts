@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="162,50" extention="Label">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="hideAddCtrl" exported="true" pages="0,,1," selected="0"/>
+  <controller name="ctrlFrozen" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <image id="n8_930q" name="_bg" src="icfzcu4cfs" fileName="A通用组件/通用按钮/返回资源栏/返回_0001_资源BG.png" pkg="pv2o4pb9" xy="18,7" size="141,32">
+      <relation target="n3_dogm" sidePair="rightext-right"/>
+    </image>
+    <text id="n7_dogm" name="title" xy="50,8" size="70,29" restrictSize="70,0,0,0" fontSize="20" color="#fedb97" align="right" vAlign="middle" letterSpacing="-1" singleLine="true" autoClearText="true" text="1111111"/>
+    <component id="n3_dogm" name="addBtn" src="dogm13" fileName="button/MoneyAddBtn.xml" xy="116,-1">
+      <gearDisplay controller="hideAddCtrl" pages="0"/>
+      <relation target="n7_dogm" sidePair="left-right"/>
+    </component>
+    <loader id="n9_udug" name="iconEffect" xy="0,0" size="50,50" fill="scaleFree" clearOnPublish="true"/>
+    <image id="n10_xw8v" name="imgLine" src="xw8v1rdfitr" fileName="A通用组件/通用按钮/返回资源栏/商城_折扣线.png" pkg="pv2o4pb9" xy="50,23" size="73,2">
+      <gearDisplay controller="ctrlFrozen" pages="1"/>
+    </image>
+    <image id="n11_xw8v" name="n11" src="icfzcu4cfs" fileName="A通用组件/通用按钮/返回资源栏/返回_0001_资源BG.png" pkg="pv2o4pb9" xy="18,7" size="141,32">
+      <gearDisplay controller="ctrlFrozen" pages="1"/>
+      <relation target="n3_dogm" sidePair="rightext-right"/>
+    </image>
+    <loader id="n6_dogm" name="icon" xy="0,0" size="50,50" fill="scaleFree" clearOnPublish="true"/>
+  </displayList>
+  <relation target="n3_dogm" sidePair="rightext-right"/>
+</component>

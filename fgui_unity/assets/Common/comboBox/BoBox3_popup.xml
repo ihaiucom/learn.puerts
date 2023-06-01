@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="205,350" designImage="ui://m2q846moq7dc2w" designImageOffsetX="-172" designImageOffsetY="-57" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <graph id="n0_r7uy" name="n0" xy="0,0" size="205,350" visible="false" touchable="false" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_r7uy" name="list" xy="0,0" size="205,270" overflow="scroll" defaultItem="ui://pvdu3cm7r7uy1e" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_r7uy" sidePair="height-height"/>
+</component>

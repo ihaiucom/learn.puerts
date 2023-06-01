@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <loader id="n2_p7fi" name="imgScene" xy="0,0" size="500,500" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height,center-center%,middle-middle%"/>
+    </loader>
+    <loader id="n3_icpn" name="iconTitle" xy="246,25" pivot="0.5,0" anchor="true" size="160,40" touchable="false" url="ui://vqq4ggtr90sq5n" align="center" vAlign="middle" fill="scale" shrinkOnly="true" autoSize="true" clearOnPublish="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+  </displayList>
+</component>

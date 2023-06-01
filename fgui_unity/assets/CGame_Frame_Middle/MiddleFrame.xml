@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,406" extention="Label" initName="comFrame" designImageOffsetX="-336" designImageOffsetY="-113" designImageAlpha="0">
+  <controller name="hideCloseCtrl" alias="隐藏关闭按钮" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="否"/>
+    <remark page="1" value="是"/>
+  </controller>
+  <controller name="typeCtrl" alias="标题类型" exported="true" pages="1,,0," selected="0">
+    <remark page="0" value="图标"/>
+    <remark page="1" value="文本"/>
+  </controller>
+  <controller name="ButtonCountCtrl" alias="按钮个数" exported="true" pages="0,2,1,1,2,0" selected="0"/>
+  <displayList>
+    <image id="n15_tw9m" name="_top" src="icfzcu4cfl" fileName="小弹出_顶部.png" pkg="pv2o4pb9" xy="0,0" size="664,62" group="n17_tw9m"/>
+    <image id="n16_tw9m" name="_mid" src="icfzcu4cfj" fileName="小弹出_中间.png" pkg="pv2o4pb9" xy="-11,62" size="686,361" group="n17_tw9m">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <group id="n17_tw9m" name="_bg" xy="-11,0" size="686,423" group="n23_tw9m"/>
+    <image id="n18_tw9m" name="n18" src="icfzcu4cfi" fileName="new_ui/frame/标题小装饰.png" pkg="pv2o4pb9" xy="429,41" pivot="1,0" anchor="true" group="n21_tw9m" rotation="180">
+      <relation target="n20_tw9m" sidePair="left-right"/>
+    </image>
+    <image id="n19_tw9m" name="n19" src="icfzcu4cfi" fileName="new_ui/frame/标题小装饰.png" pkg="pv2o4pb9" xy="240,41" pivot="1,1" anchor="true" group="n21_tw9m">
+      <relation target="n20_tw9m" sidePair="right-left"/>
+    </image>
+    <text id="n20_tw9m" name="title" xy="333,31" pivot="0.5,0.5" anchor="true" size="127,42" group="n21_tw9m" fontSize="30" color="#fedb97" align="center" letterSpacing="1" text="获取途径">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n21_tw9m" name="n21" xy="176,10" size="253,51" group="n23_tw9m" advanced="true"/>
+    <component id="n22_tw9m" name="btnClose" src="cd2iu4c3v" fileName="button/ButtonClose.xml" pkg="pvdu3cm7" xy="598,8" group="n23_tw9m">
+      <gearDisplay controller="hideCloseCtrl" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n24_kxu8" name="btn1" src="q4tgu4c3h" fileName="button/ButtonLargeBlue.xml" pkg="pvdu3cm7" xy="90,314" group="n26_kxu8">
+      <gearDisplay controller="ButtonCountCtrl" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n25_kxu8" name="btn2" src="q4tgu4c3g" fileName="button/ButtonLargeYellow.xml" pkg="pvdu3cm7" xy="384,314" group="n26_kxu8">
+      <gearDisplay controller="ButtonCountCtrl" pages="0,1"/>
+      <gearXY controller="ButtonCountCtrl" pages="0,1,2" values="384,314|239,314|385,314"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <group id="n26_kxu8" name="n26" xy="90,314" size="480,62" group="n23_tw9m"/>
+    <group id="n23_tw9m" name="n23" xy="-11,0" size="686,423"/>
+  </displayList>
+  <customProperty target="btn1.title" propertyId="0"/>
+  <customProperty target="btn2.title" propertyId="0"/>
+</component>

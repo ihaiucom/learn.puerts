@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="103,32" designImage="ui://ehc2h91blygxcu4ccy" designImageOffsetX="-451" designImageOffsetY="-475" designImageAlpha="0" designImageLayer="1">
+  <controller name="isAdd" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n4_nf1c" name="imgBg" src="icfzcu4cec" fileName="A通用组件/通用其它资源/通用_2边渐变底图.png" pkg="pv2o4pb9" xy="51,16" pivot="0.5,0.5" anchor="true" size="345,32" rotation="180"/>
+    <richtext id="n0_p7fi" name="AttrDesc" xy="51,16" pivot="0.5,0.5" anchor="true" size="94,26" fontSize="18" color="#ff4142" align="center" vAlign="middle" ubb="true" singleLine="true" autoClearText="true" text="力量 +1524"/>
+    <image id="n6_irq5" name="loaderArrow1" src="icfzcu4ce6" fileName="A通用组件/通用TIPS/物品TIPS_箭头_削减.png" pkg="pv2o4pb9" xy="109,15" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="isAdd" pages="0"/>
+      <relation target="n0_p7fi" sidePair="left-right"/>
+    </image>
+    <image id="n7_irq5" name="loaderArrow2" src="icfzcu4ce7" fileName="A通用组件/通用TIPS/物品TIPS_箭头_增加.png" pkg="pv2o4pb9" xy="109,15" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="isAdd" pages="1"/>
+      <relation target="n0_p7fi" sidePair="left-right"/>
+    </image>
+  </displayList>
+  <transition name="fxAttrShow">
+    <item time="0" type="Alpha" target="n0_p7fi" tween="true" startValue="1" endValue="0" duration="48" ease="Custom" customEase="2,0,0,0.45,0.135,0.6275,0.9275,1,0,1,1"/>
+    <item time="0" type="Alpha" target="n4_nf1c" tween="true" startValue="1" endValue="0" duration="48" ease="Custom" customEase="2,0,0,0.45,0.135,0.6275,0.9275,1,0,1,1"/>
+    <item time="0" type="Alpha" target="n6_irq5" value="1"/>
+    <item time="0" type="Alpha" target="n6_irq5" tween="true" startValue="1" endValue="0" duration="48" ease="Custom" customEase="2,0,0,0.45,0.135,0.6275,0.9275,1,0,1,1"/>
+    <item time="0" type="Alpha" target="n7_irq5" value="1"/>
+    <item time="0" type="Alpha" target="n7_irq5" tween="true" startValue="1" endValue="0" duration="48" ease="Custom" customEase="2,0,0,0.45,0.135,0.6275,0.9275,1,0,1,1"/>
+    <item time="0" type="XY" target="n0_p7fi" tween="true" startValue="-,16" endValue="-,-90" duration="48" ease="Custom" customEase="2,0,0,0.4975,0.15,0.5925,0.9075,1,0,1,1"/>
+    <item time="0" type="XY" target="n4_nf1c" tween="true" startValue="-,16" endValue="-,-93" duration="48" ease="Custom" customEase="2,0,0,0.45,0.135,0.6275,0.9275,1,0,1,1"/>
+    <item time="0" type="XY" target="n6_irq5" value="-,-90"/>
+    <item time="0" type="XY" target="n6_irq5" tween="true" startValue="-,16" endValue="-,16" duration="0" ease="Custom" customEase="2,0,0,0.4975,0.15,0.5925,0.9075,1,0,1,1"/>
+    <item time="0" type="XY" target="n6_irq5" tween="true" startValue="-,16" endValue="-,16" duration="0" ease="Custom" customEase="2,0,0,0.4975,0.15,0.5925,0.9075,1,0,1,1"/>
+    <item time="0" type="XY" target="n6_irq5" tween="true" startValue="-,16" endValue="102,16" duration="0" ease="Custom" customEase="2,0,0,0.4975,0.15,0.5925,0.9075,1,0,1,1"/>
+    <item time="0" type="XY" target="n6_irq5" tween="true" startValue="102,16" endValue="-,-90" duration="48" ease="Custom" customEase=""/>
+    <item time="0" type="XY" target="n7_irq5" tween="true" startValue="-,16" endValue="-,16" duration="0" ease="Custom" customEase="2,0,0,0.4975,0.15,0.5925,0.9075,1,0,1,1"/>
+    <item time="0" type="XY" target="n7_irq5" tween="true" startValue="-,16" endValue="-,16" duration="0"/>
+    <item time="0" type="XY" target="n7_irq5" tween="true" startValue="-,16" endValue="-,-90" duration="48" ease="Custom" customEase="2,0,0,0.4975,0.15,0.5925,0.9075,1,0,1,1"/>
+    <item time="48" type="XY" target="n6_irq5" value="-,-90"/>
+    <item time="48" type="XY" target="n6_irq5" value="-,-90"/>
+  </transition>
+</component>

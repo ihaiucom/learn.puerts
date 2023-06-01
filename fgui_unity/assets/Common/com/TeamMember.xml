@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="203,116" overflow="hidden" designImageOffsetX="-345" designImageOffsetY="-229" designImageAlpha="46">
+  <controller name="isLeaderCtrl" exported="true" pages="0,,1," selected="1"/>
+  <controller name="isGrayCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n10_lflx" name="n10" src="v3tl3" fileName="new_ui/other/组队_修改信息界面_队伍选中BG.png" pkg="pv2o4pb9" xy="0,0" size="203,116"/>
+    <image id="n5_l6ct" name="n5" src="lflxcu4cdl" fileName="new_ui/other/组队_修改信息界面_队伍选中花纹.png" pkg="pv2o4pb9" xy="31,68" group="n9_lflx"/>
+    <image id="n6_lflx" name="n6" src="lflxcu4cdl" fileName="new_ui/other/组队_修改信息界面_队伍选中花纹.png" pkg="pv2o4pb9" xy="102,68" group="n9_lflx" flip="hz"/>
+    <image id="n7_lflx" name="n7" src="lflxcu4cdl" fileName="new_ui/other/组队_修改信息界面_队伍选中花纹.png" pkg="pv2o4pb9" xy="173,-23" pivot="0,1" group="n9_lflx" scale="-1,-1"/>
+    <image id="n8_lflx" name="n8" src="lflxcu4cdl" fileName="new_ui/other/组队_修改信息界面_队伍选中花纹.png" pkg="pv2o4pb9" xy="31,23" group="n9_lflx" flip="vt"/>
+    <group id="n9_lflx" name="n9" xy="31,-23" size="213,137" advanced="true">
+      <gearDisplay controller="isGrayCtrl" pages="0"/>
+    </group>
+    <loader id="n3_dx56" name="n3" xy="1,0" size="201,27" url="ui://pv2o4pb9v3tl1" fill="scaleFree">
+      <gearIcon controller="isGrayCtrl" pages="0" values="ui://pv2o4pb9v3tl1" default="ui://pv2o4pb9dx56d"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n0_in2g" name="iconHead" src="gptc4b" fileName="com/Role/HeadIcon.xml" xy="65,35" scale="0.9,0.9">
+      <gearLook controller="isGrayCtrl" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n1_in2g" sidePair="center-center,top-bottom"/>
+    </component>
+    <text id="n1_in2g" name="txtName" xy="101,13" pivot="0.5,0.5" anchor="true" size="144,29" fontSize="20" color="#fef2da" align="center" vAlign="middle" text="七个字的名字啊">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n2_in2g" name="n2" src="vuec3f" fileName="new_ui/headicon/主界面_组队_队长标识.png" pkg="pv2o4pb9" xy="182,0">
+      <gearDisplay controller="isLeaderCtrl" pages="1"/>
+    </image>
+    <image id="n11_lflx" name="n11" src="v3tl2" fileName="new_ui/other/组队_修改信息界面_队伍描边.png" pkg="pv2o4pb9" xy="0,0" size="203,116"/>
+  </displayList>
+</component>

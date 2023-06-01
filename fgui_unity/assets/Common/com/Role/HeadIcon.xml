@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,72" pivot="0.5,0.5">
+  <controller name="changeScale" exported="true" pages="0,origin,2,showInChat,5,showInPVP" selected="0"/>
+  <controller name="isLeader" homePageType="specific" homePage="0" pages="0,,1," selected="0"/>
+  <controller name="ctrlGrayed" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <graph id="n107_pqq3" name="iconBg" xy="0,0" size="72,72" type="rect" fillColor="#ff5a270e"/>
+    <loader id="n103_gg15" name="headIcon" xy="1,1" pivot="0.5,0.5" size="70,70" aspect="true" align="center" vAlign="middle" fill="scale" shrinkOnly="true" clearOnPublish="true"/>
+    <image id="n112_ciiu" name="n0" src="icfzcu4cex" fileName="A通用组件/通用其它资源/遮罩/100%黑.png" pkg="pv2o4pb9" xy="1,1" size="70,70" alpha="0.5">
+      <gearDisplay controller="ctrlGrayed" pages="1"/>
+    </image>
+    <loader id="n109_phyd" name="iconFrame" xy="0,0" size="72,72" url="ui://pv2o4pb9vueccu4ccq" fill="scaleFree"/>
+    <loader id="n111_yvun" name="iconDecoration" xy="-3,-3" size="78,78" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <image id="n106_nes8" name="imgLevel" src="vueccu4ccr" fileName="new_ui/headicon/主界面_信息框_等级框.png" pkg="pv2o4pb9" xy="7,64" pivot="0.5,0.5" anchor="true">
+      <gearXY controller="changeScale" pages="0,2,5" values="7,64|2,7|5,66"/>
+    </image>
+    <text id="n90_gg15" name="playerLevel" xy="6,64" pivot="0.5,0.5" anchor="true" size="48,32" fontSize="16" color="#edfdff" align="center" vAlign="middle" autoSize="shrink" text="50">
+      <gearXY controller="changeScale" pages="0,2,5" values="6,64|2,6|4,66"/>
+    </text>
+    <loader id="n110_ohw6" name="iconLeader" xy="51,0" size="21,29" aspect="true" url="ui://pv2o4pb9vuec3f" fill="scaleMatchHeight" autoSize="true">
+      <gearDisplay controller="isLeader" pages="1"/>
+    </loader>
+  </displayList>
+</component>
