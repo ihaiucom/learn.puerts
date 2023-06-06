@@ -1,7 +1,5 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace Zeng
 {
@@ -28,27 +26,30 @@ namespace Zeng
             }
         }
 
-        public Coroutine Start(IEnumerator enumerator)
+        public Coroutine Start(IEnumerator enumerator, string name = null)
         {
-            Coroutine c = new Coroutine(enumerator);
+            Coroutine c = new Coroutine(enumerator, name, this);
             coroutineList.AddLast(c);
             return c;
         }
 
         public void Stop(Coroutine coroutine) {
-            coroutineToStop.AddLast(coroutine);
+            if (coroutineList.Contains(coroutine))
+            {
+                coroutineToStop.AddLast(coroutine);
+            }
         }
 
         public void Update(float deltaTime, int frameIndex)
         {
-            //UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  Update;");
+            ////UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  Update;");
             LinkedListNode<Coroutine> node = coroutineList.First;
             int i = 0;
             while(node != null)
             {
                 Coroutine corutine = node.Value;
 
-                //UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  Update node " + i);
+                ////UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  Update node " + i);
                 bool ret = false;
                 bool toStop = false;
                 if (corutine != null) {
@@ -56,19 +57,17 @@ namespace Zeng
                     if(!toStop)
                     {
                         ret = corutine.MoveNext(deltaTime, frameIndex);
-                        UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  Update corutine.MoveNext ret=" + ret);
+                        //UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  Update corutine.MoveNext ret=" + ret + ", " + corutine);
                     }
                 }
 
                 if(!ret)
                 {
 
-                    UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  coroutineList.Remove(node);");
+                    //UnityEngine.Debug.Log(frameIndex + " [CoroutineManager]  coroutineList.Remove(node);  , " + corutine);
+                    corutine.OnStop();
                     coroutineList.Remove(node);
-                    if(toStop)
-                    {
-                        coroutineToStop.Remove(corutine);
-                    }
+                    coroutineToStop.Remove(corutine);
                 }
 
                 node = node.Next;
@@ -78,11 +77,17 @@ namespace Zeng
 
     }
 
-    public sealed class Coroutine
+    public sealed class Coroutine : IWait
     {
+        private CoroutineManager manager;
         private IEnumerator routine;
-        public Coroutine(IEnumerator routine) {
+        public string name;
+
+        private Coroutine subCoroutine;
+        public Coroutine(IEnumerator routine, string name = null, CoroutineManager manager = null) {
+            this.manager = manager;
             this.routine = routine;
+            this.name = !string.IsNullOrEmpty(name) ? name : routine.ToString();
         }
 
         public bool MoveNext(float deltaTime, int frameIndex)
@@ -91,21 +96,50 @@ namespace Zeng
                 return false;
             }
 
-            IWait wait = routine.Current as IWait;
             bool moveNext = true;
-            if(wait != null)
-            {
-                moveNext = wait.Tick(deltaTime, frameIndex);
+            if (subCoroutine == null) {
+                //UnityEngine.Debug.Log(frameIndex + " [Coroutine]" + this + ", routine.Current=" + routine.Current);
+                IWait wait = routine.Current as IWait;
+                if (wait != null)
+                {
+                    moveNext = wait.Tick(deltaTime, frameIndex);
+                }
+                else
+                {
+
+                    IEnumerator enumerator = routine.Current as IEnumerator;
+                    if (enumerator != null)
+                    {
+                        subCoroutine = new Coroutine(enumerator);
+                    }
+                }
             }
 
-            if(!moveNext)
+            if (subCoroutine != null)
             {
-                UnityEngine.Debug.Log(frameIndex + " [Coroutine] not movenext");
+
+
+                bool subRet = subCoroutine.MoveNext(deltaTime, frameIndex);
+                //UnityEngine.Debug.Log(frameIndex + " [Coroutine] subCoroutine" + this + ", subRet=" + subRet);
+                if (!subRet)
+                {
+                    subCoroutine.OnStop();
+                    subCoroutine = null;
+                }
+                moveNext = !subRet;
+            }
+
+
+
+
+            if (!moveNext)
+            {
+                //UnityEngine.Debug.Log(frameIndex + " [Coroutine] not movenext, " + this);
                 return true;
             }
             else
             {
-                UnityEngine.Debug.Log(frameIndex + " [Coroutine] movenext");
+                //UnityEngine.Debug.Log(frameIndex + " [Coroutine] movenext, " + this);
                 return routine.MoveNext();
             }
 
@@ -113,7 +147,30 @@ namespace Zeng
 
         public void Stop()
         {
+            if(this.manager != null)
+            {
+                this.manager.Stop(this);
+            }
+        }
+
+        internal void OnStop()
+        {
+            //UnityEngine.Debug.Log(" [Coroutine] OnStop, " + this);
             routine = null;
+            subCoroutine = null;
+            manager = null;
+        }
+
+
+        bool IWait.Tick(float deltaTime, int frameIndex)
+        {
+            //UnityEngine.Debug.Log(frameIndex + " [Coroutine] Tick:" + this);
+            return routine == null;
+        }
+
+        public override string ToString()
+        {
+            return "Coroutine(" + this.name + ")";
         }
 
     }
@@ -130,8 +187,7 @@ namespace Zeng
 
         bool IWait.Tick(float deltaTime, int frameIndex)
         {
-            waitTime -= deltaTime;
-            UnityEngine.Debug.Log(frameIndex + " [WaitForSeconds] now left:" + waitTime);
+            waitTime -= deltaTime;           
             return waitTime <= 0;
         }
     }
@@ -146,7 +202,6 @@ namespace Zeng
         bool IWait.Tick(float deltaTime, int frameIndex)
         {
             waitFrame--;
-            UnityEngine.Debug.Log(frameIndex + " [WaitForFrame] now left:" + waitFrame);
             return waitFrame <= 0;
         }
     }
