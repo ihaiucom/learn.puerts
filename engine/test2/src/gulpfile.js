@@ -25,7 +25,7 @@ var packsDef = [
         'libName': "core",
         'input': [
             './layaAir/ZF.ts',
-            './layaAir/**/*.*',
+            './layaAir/**/*.ts'
         ],
         'out': '../build/js/libs/laya.core.js'
     }
@@ -240,11 +240,43 @@ gulp.task('buildJS', async function () {
 });
 
 
+// 压缩
+// 下面两个方法，最好能合并
+gulp.task("compressJs", function () {
+    // gulp.src("../build/as/jslibs/laya.physics3D.js")
+    //     .pipe(rename({extname: ".min.js"}))
+    //     .pipe(gulp.dest("../build/as/jslibs/min"))
+    //     .pipe(gulp.dest("../build/js/libs/min"))
+    //     .pipe(gulp.dest("../build/ts/libs/min"));
+
+    // gulp.src("../build/as/jslibs/laya.physics3D.wasm.wasm")
+    //     .pipe(gulp.dest("../build/as/jslibs/min"))
+    //     .pipe(gulp.dest("../build/js/libs/min"))
+    //     .pipe(gulp.dest("../build/ts/libs/min"));
+
+    return gulp.src(["../build/as/jslibs/*.js"])
+        .pipe(uglify({
+            mangle: {
+                keep_fnames: true
+            }
+        }))
+        .on('error', function (err) {
+            console.warn(err.toString());
+        })
+        .pipe(changeWxWasmPath()) 
+        .pipe(rename({extname: ".min.js"}))
+        .pipe(gulp.dest("../build/as/jslibs/min"))
+        .pipe(gulp.dest("../build/js/libs/min"))
+        .pipe(gulp.dest("../build/ts/libs/min"));
+});
+
+
 gulp.task('build', 
-gulp.series('buildJS', 'ModifierJs',
-            'CopyTSFileToTS', 
-            'CopyJSFileToTSCompatible', 
-            'CopyDTS'));
+gulp.series('buildJS' , 'ModifierJs',
+            // 'CopyTSFileToTS', 
+            // 'CopyJSFileToTSCompatible', 
+            // 'CopyDTS'
+            ));
 
             // gulp.series('buildJS', 'ModifierJs',
             // 'CopyTSFileToTS', 'CopyJSFileToAS', 

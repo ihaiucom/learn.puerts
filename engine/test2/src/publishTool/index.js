@@ -188,28 +188,28 @@ class Main {
                 let layaObj = "declare module Laya {\n" + emiter_1.emiter.dtsData + "\n}\n";
                 this.dtsObj += layaObj;
                 this.createDir(this.outfileJS);
-                this.createDir(this.outfileTS);
+                // this.createDir(this.outfileTS);
                 let jsout = path.join(this.outfile, this.outfileJS) + "LayaAir.d.ts";
                 let tsout = path.join(this.outfile, this.outfileTS) + "LayaAir.d.ts";
-                fs.writeFile(tsout, this.dtsObj, err => {
+                fs.writeFile(jsout, this.dtsObj, err => {
                     if (err) {
                         console.log("create ts d.ts fail");
                         exit(1);
                         return;
                     }
-                    fs.writeFile(jsout, this.dtsObj, (err) => __awaiter(this, void 0, void 0, function* () {
-                        if (err) {
-                            console.log("create js d.ts fail");
-                            exit(1);
-                            return;
-                        }
-                        console.log("create d.ts success");
-                        console.log("start copy layajs.exe");
-                        yield gulp.src(this.layajsURL).pipe(gulp.dest(path.join(this.outfile, this.outfileAS, "../../")));
-                        console.log("start copy jsc");
-                        yield gulp.src("./jsc/**/*.*").pipe(gulp.dest(path.join(this.outfile, this.outfileAS)));
-                        console.log("copy success!");
-                    }));
+                    // fs.writeFile(jsout, this.dtsObj, (err) => __awaiter(this, void 0, void 0, function* () {
+                    //     if (err) {
+                    //         console.log("create js d.ts fail");
+                    //         exit(1);
+                    //         return;
+                    //     }
+                    //     console.log("create d.ts success");
+                    //     // console.log("start copy layajs.exe");
+                    //     // yield gulp.src(this.layajsURL).pipe(gulp.dest(path.join(this.outfile, this.outfileAS, "../../")));
+                    //     // console.log("start copy jsc");
+                    //     // yield gulp.src("./jsc/**/*.*").pipe(gulp.dest(path.join(this.outfile, this.outfileAS)));
+                    //     // console.log("copy success!");
+                    // }));
                 });
             }
             else {
