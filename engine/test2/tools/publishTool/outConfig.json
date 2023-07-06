@@ -1,8 +1,8 @@
 {
-  "from":"../../bin/tsc/layaAir/",
+  "from":"../../bin/",
   "out":"../../build/",
   "layajsURL":"./as/layajs.exe",
-  "tsConfig":["../layaAir/tsconfig.json"],
+  "tsConfig":["../../src/tsconfig.json"],
   "filter":["AniLibPack.d.ts","ILaya.d.ts","GCanvas.d.ts","IPhysics.d.ts","IUI.d.ts","IMap.d.ts"],
   "createAS":false,
   "jscObj":{

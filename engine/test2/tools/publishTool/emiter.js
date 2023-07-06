@@ -43,7 +43,7 @@ class emiter {
         };
     }
     static get BaseURL() {
-        return emiter._BaseURL || "../bin/layaAir/";
+        return emiter._BaseURL || "../bin/";
     }
     static set BaseURL(v) {
         emiter._BaseURL = v;

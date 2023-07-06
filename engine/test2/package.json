@@ -2,9 +2,9 @@
   "name": "ts",
   "version": "1.0.0",
   "description": "",
-  "main": "layaAir.config.js",
+  "main": "xxx.config.js",
   "scripts": {
-    "build": "cd src/publishTool&&cmd /k publish.bat"
+    "build": "cd tools/publishTool&&cmd /k publish.bat"
   },
   "author": "ACT.",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -26,7 +26,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/layabox/LayaAir"
+    "url": "https://github.com/xxx"
   },
   "bugs": {
     "url": "https://ask.layabox.com/"

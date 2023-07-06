@@ -3,8 +3,8 @@ if exist ..\..\build (
    rmdir /s/q ..\..\build
 ) 
 
-if exist ..\..\bin\tsc\layaAir (
-   rmdir /s/q ..\..\bin\tsc\layaAir
+if exist ..\..\bin (
+   rmdir /s/q ..\..\bin
 ) 
 node index.js
 

@@ -4,8 +4,8 @@
 #    rmdir /s/q ..\..\build
 # ) 
 
-# if exist ..\..\bin\tsc\layaAir (
-#    rmdir /s/q ..\..\bin\tsc\layaAir
+# if exist ..\..\bin (
+#    rmdir /s/q ..\..\bin
 # ) 
 # node index.js
 
@@ -16,8 +16,8 @@
 if [ -d "../../build" ] ; then 
     rm -rf "../../build"
 fi
-if [ -d "../../bin/tsc/layaAir" ] ; then
-    rm -rf "../../bin/tsc/layaAir"
+if [ -d "../../bin" ] ; then
+    rm -rf "../../bin"
 fi
 node index.js
 result=$?

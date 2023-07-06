@@ -17,15 +17,12 @@ var Stream = require('stream');
 
 //编译新的库文件只需要在packsDef中配置一下新的库就可以了
 
-// TODO ZF remove physics3D compile steps
-// exclude ./layaAir/laya/d3/WebXR/**/*.*'
 
 var packsDef = [
     {
         'libName': "core",
         'input': [
-            './layaAir/ZF.ts',
-            './layaAir/**/*.ts'
+            '../src/**/*.ts'
         ],
         'out': '../build/js/libs/laya.core.js'
     }
@@ -177,7 +174,7 @@ gulp.task('buildJS', async function () {
                 myMultiInput(),
                 typescript({
                     include: /.*(.d.ts|.ts|.js)$/,
-                    tsconfig: "./layaAir/tsconfig.json",
+                    tsconfig: "../src/tsconfig.json",
                     check: false,
                     tsconfigOverride: { compilerOptions: { removeComments: true } }
                 }),
@@ -195,7 +192,7 @@ gulp.task('buildJS', async function () {
             await subTask.write({
                 file: packsDef[i].out,
                 format: 'iife',
-                outro: 'exports.static=_static;',  //由于static是关键字，无法通过ts编译。AS需要这个函数，临时强插
+                // outro: 'exports.static=_static;',  //由于static是关键字，无法通过ts编译。AS需要这个函数，临时强插
                 name: 'Laya',
                 sourcemap: false
             });

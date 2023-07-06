@@ -42,7 +42,7 @@ class Main {
         // this.tstoas("laya\\d3\\component\\SingletonList.d.ts",null,"laya\\d3\\component");
     }
     get BaseURL() {
-        return this._BaseURL || "../bin/layaAir/";
+        return this._BaseURL || "../bin/";
     }
     set BaseURL(value) {
         this._BaseURL = value;
