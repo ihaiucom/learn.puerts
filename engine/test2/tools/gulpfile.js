@@ -23,18 +23,9 @@ var packsDef = [
     {
         'libName': "core",
         'input': [
-            // '../src/**/*.ts'
-            '../src/*.ts',
-            '../src/engine/**/*.ts'
+            '../src/**/*.ts'
         ],
-        'out': `../build/js/libs/${build_config.fileName}.core.js`
-    },
-    {
-        'libName': "aa",
-        'input': [
-            '../src/laya/**/*.ts'
-        ],
-        'out': `../build/js/libs/${build_config.fileName}.aa.js`
+        'out': `../build/js/libs/${build_config.fileName}.js`
     }
 ];
 

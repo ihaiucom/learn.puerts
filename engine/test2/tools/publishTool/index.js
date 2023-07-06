@@ -16,6 +16,8 @@ const path = require("path");
 const gulp = require("gulp");
 const child_process = require("child_process");
 const emiter_1 = require("./emiter");
+const build_config = require("../build.config");
+console.log('----------build_config', build_config);
 const { exit } = require("process");
 class Main {
     constructor() {
@@ -185,12 +187,12 @@ class Main {
             // let keys = Object.keys(this.Testobj);
             if (!this.Testobj) {
                 console.log("TS to AS complete!!!", this.complete, this.progress);
-                let layaObj = "declare module Laya {\n" + emiter_1.emiter.dtsData + "\n}\n";
+                let layaObj = `declare module ${build_config.moduleName} {\n` + emiter_1.emiter.dtsData + `\n}\n`;
                 this.dtsObj += layaObj;
                 this.createDir(this.outfileJS);
                 // this.createDir(this.outfileTS);
-                let jsout = path.join(this.outfile, this.outfileJS) + "LayaAir.d.ts";
-                let tsout = path.join(this.outfile, this.outfileTS) + "LayaAir.d.ts";
+                let jsout = path.join(this.outfile, this.outfileJS) + `${build_config.fileName}.d.ts`;
+                let tsout = path.join(this.outfile, this.outfileTS) +  `${build_config.fileName}.d.ts`;
                 fs.writeFile(jsout, this.dtsObj, err => {
                     if (err) {
                         console.log("create ts d.ts fail");
