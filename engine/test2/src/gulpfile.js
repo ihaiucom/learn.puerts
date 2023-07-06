@@ -160,32 +160,7 @@ gulp.task('ConcatLayaLibs', function(cb) {
 
 
 
-//拷贝js库至ts库
-gulp.task('CopyJSFileToTSCompatible', () => {
-    return gulp.src([
-        '../build/js/libs/**/*.js'])
-        .pipe(gulp.dest('../build/ts/libs'));
-});
 
-
-//拷贝引擎ts源码至ts库
-gulp.task('CopyTSFileToTS', () => {
-    return gulp.src([
-        './layaAir/**/*.*',  '!./layaAir/tsconfig.json'])
-        .pipe(gulp.dest('../build/ts_new/libs'));
-});
-
-
-
-gulp.task('CopyDTS', (cb) => {
-    gulp.src(['../tslibs/ts/*.*'])
-        .pipe(gulp.dest('../build/js/ts'))
-        .pipe(gulp.dest('../build/ts/ts'))
-
-    gulp.src(['../tslibs/nts/*.*'])
-        .pipe(gulp.dest('../build/ts_new/libs'))
-    setTimeout(cb, 1000);
-});
 
 
 //在这个任务中由于机器的配置可能会出现堆栈溢出的情况，解决方案一可以将其中的某些库移送至buildJS2编译，若buildJS2也堆栈溢出，则可以再新建一个任务buildJS3
@@ -243,18 +218,8 @@ gulp.task('buildJS', async function () {
 // 压缩
 // 下面两个方法，最好能合并
 gulp.task("compressJs", function () {
-    // gulp.src("../build/as/jslibs/laya.physics3D.js")
-    //     .pipe(rename({extname: ".min.js"}))
-    //     .pipe(gulp.dest("../build/as/jslibs/min"))
-    //     .pipe(gulp.dest("../build/js/libs/min"))
-    //     .pipe(gulp.dest("../build/ts/libs/min"));
 
-    // gulp.src("../build/as/jslibs/laya.physics3D.wasm.wasm")
-    //     .pipe(gulp.dest("../build/as/jslibs/min"))
-    //     .pipe(gulp.dest("../build/js/libs/min"))
-    //     .pipe(gulp.dest("../build/ts/libs/min"));
-
-    return gulp.src(["../build/as/jslibs/*.js"])
+    return gulp.src(["../build/js/libs/*.js"])
         .pipe(uglify({
             mangle: {
                 keep_fnames: true
@@ -263,22 +228,12 @@ gulp.task("compressJs", function () {
         .on('error', function (err) {
             console.warn(err.toString());
         })
-        .pipe(changeWxWasmPath()) 
-        .pipe(rename({extname: ".min.js"}))
-        .pipe(gulp.dest("../build/as/jslibs/min"))
         .pipe(gulp.dest("../build/js/libs/min"))
-        .pipe(gulp.dest("../build/ts/libs/min"));
 });
 
 
 gulp.task('build', 
-gulp.series('buildJS' , 'ModifierJs',
-            // 'CopyTSFileToTS', 
-            // 'CopyJSFileToTSCompatible', 
-            // 'CopyDTS'
-            ));
+gulp.series('buildJS' , 'ModifierJs'
+// , 'compressJs'
+ ));
 
-            // gulp.series('buildJS', 'ModifierJs',
-            // 'CopyTSFileToTS', 'CopyJSFileToAS', 
-            // CopyJSFileToTSCompatible', 
-            // 'CopyDTS',  'compresstsnewJs')
