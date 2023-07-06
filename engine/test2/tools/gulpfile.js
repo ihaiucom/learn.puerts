@@ -15,6 +15,7 @@ const uglify = require('gulp-uglify-es').default;
 const rename = require('gulp-rename');
 var Stream = require('stream');
 
+var build_config = require('./build.config');
 //编译新的库文件只需要在packsDef中配置一下新的库就可以了
 
 
@@ -22,9 +23,18 @@ var packsDef = [
     {
         'libName': "core",
         'input': [
-            '../src/**/*.ts'
+            // '../src/**/*.ts'
+            '../src/*.ts',
+            '../src/engine/**/*.ts'
         ],
-        'out': '../build/js/libs/laya.core.js'
+        'out': `../build/js/libs/${build_config.fileName}.core.js`
+    },
+    {
+        'libName': "aa",
+        'input': [
+            '../src/laya/**/*.ts'
+        ],
+        'out': `../build/js/libs/${build_config.fileName}.aa.js`
     }
 ];
 
@@ -83,7 +93,7 @@ function myMultiInput() {
                 if (curPackFiles.indexOf(importfile) < 0) {
                     //其他包里的文件
                     // console.log('other pack:',id,'importer=', importer);
-                    return 'Laya';
+                    return build_config.moduleName;
                 }
             },
             load(id) {
@@ -114,9 +124,15 @@ gulp.task('ModifierJs', () => {
         if (i !== packsDef.length - 1) {
             gulp.src([packsDef[i].out])
                 .pipe(through.obj(function (file, encode, cb) {
+                    var srcContents = "";
                     var srcContents = file.contents.toString();
-                    var destContents = srcContents.replace(/var Laya /, "window.Laya");
-                    destContents = destContents.replace(/\(this.Laya = this.Laya \|\| {}, Laya\)\);/, "(window.Laya = window.Laya || {}, Laya));");
+                    var re = new RegExp(`var ${build_config.moduleName} `);
+                    var destContents = srcContents.replace(re, `window.${build_config.moduleName}`);
+                    
+                    var re = new RegExp(`\\(this.${build_config.moduleName} = this.${build_config.moduleName} \\|\\| {}\\)\\);`);
+                    // /\(this.Laya = this.Laya \|\| {}, Laya\)\);/
+                        destContents = destContents.replace(re, `(window.${build_config.moduleName} = window.${build_config.moduleName} || {}, ${build_config.moduleName}));`);
+                        
                     // 再次转为Buffer对象，并赋值给文件内容
                     file.contents = Buffer.from(destContents);
                     // 以下是例行公事
@@ -128,8 +144,13 @@ gulp.task('ModifierJs', () => {
             return gulp.src([packsDef[i].out])
             .pipe(through.obj(function (file, encode, cb) {
                 var srcContents = file.contents.toString();
-                var destContents = srcContents.replace(/var Laya /, "window.Laya");
-                destContents = destContents.replace(/\(this.Laya = this.Laya \|\| {}, Laya\)\);/, "(window.Laya = window.Laya || {}, Laya));");
+                var re = new RegExp(`var ${build_config.moduleName} `);
+                var destContents = srcContents.replace(re, `window.${build_config.moduleName}`);
+                 var re = new RegExp(`\\(this.${build_config.moduleName} = this.${build_config.moduleName} \\|\\| {}\\)\\);`);
+                // /\(this.Laya = this.Laya \|\| {}, Laya\)\);/
+                    destContents = destContents.replace(re, `(window.${build_config.moduleName} = window.${build_config.moduleName} || {}, ${build_config.moduleName}));`);
+                    
+                // destContents = destContents.replace(/\(this.Engine = this.Engine \|\| {}\)\);/, `(window.${build_config.moduleName} = window.${build_config.moduleName} || {}, ${build_config.moduleName}));`);
                 // 再次转为Buffer对象，并赋值给文件内容
                 file.contents = Buffer.from(destContents);
                 // 以下是例行公事
@@ -139,19 +160,6 @@ gulp.task('ModifierJs', () => {
             .pipe(gulp.dest('../build/js/libs/'));
         }
     }
-});
-
-gulp.task('ConcatLayaLibs', function(cb) {
-    pump([
-        gulp.src([
-            '../build/js/libs/laya.ani.js',
-            '../build/js/libs/laya.core.js',
-            '../build/js/libs/laya.d3.js',
-            '../build/js/libs/laya.device.js',
-            '../build/js/libs/laya.spine.js']),
-        concat('laya.libs.js'),
-        gulp.dest('../build/js/libs/')
-    ], cb)
 });
 
 
@@ -167,9 +175,9 @@ gulp.task('buildJS', async function () {
             input: packsDef[i].input,
             output: {
                 extend: true,
-                globals: { 'Laya': 'Laya' }
+                globals: { [build_config.moduleName]: build_config.moduleName }
             },
-            external: ['Laya'],
+            external: [build_config.moduleName],
             plugins: [
                 myMultiInput(),
                 typescript({
@@ -193,7 +201,7 @@ gulp.task('buildJS', async function () {
                 file: packsDef[i].out,
                 format: 'iife',
                 // outro: 'exports.static=_static;',  //由于static是关键字，无法通过ts编译。AS需要这个函数，临时强插
-                name: 'Laya',
+                name: build_config.moduleName,
                 sourcemap: false
             });
         }
@@ -201,10 +209,10 @@ gulp.task('buildJS', async function () {
             await subTask.write({
                 file: packsDef[i].out,
                 format: 'iife',
-                name: 'Laya',
+                name: build_config.moduleName,
                 sourcemap: false,
                 extend: true,
-                globals: { 'Laya': 'Laya' }
+                globals: { [build_config.moduleName]: build_config.moduleName }
             });
 
         }
